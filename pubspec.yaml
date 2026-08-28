@@ -1,0 +1,37 @@
+name: bukusaku_standalone
+description: Buku Saku RSGM AU standalone offline.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  shared_preferences: ^2.5.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/rsgmau_content.json
+    - assets/rsgmau_logo_gold_gemstone.png
+    - assets/splash_board.jpg
+    - assets/apar/
+    - assets/struktur_organisasi_rsgmau.jpg
+    - assets/alur_pengaduan_pasien.jpg
+    - assets/race_pass_illustration.png
+    - assets/bhd_hero.png
+    - assets/peta_evakuasi_rsgmau.jpg
+    - assets/evakuasi_hero.png
+    - assets/jatuh_01_aman.png
+    - assets/jatuh_02_assessment.png
+    - assets/jatuh_03_bantu.png
+    - assets/jatuh_04_dokumentasi.png
+

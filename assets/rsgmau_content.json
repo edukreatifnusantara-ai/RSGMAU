@@ -1,0 +1,968 @@
+[
+  {
+    "id": "skp-001",
+    "category": "SKP",
+    "title": "Sasaran Keselamatan Pasien",
+    "question": "Apa saja enam Sasaran Keselamatan Pasien?",
+    "answer": "Ketepatan identifikasi pasien; peningkatan komunikasi efektif; peningkatan keamanan obat yang perlu diwaspadai; kepastian tepat lokasi, tepat prosedur, dan tepat pasien operasi; pengurangan risiko infeksi terkait pelayanan kesehatan; serta pengurangan risiko pasien jatuh.",
+    "keywords": [
+      "SKP",
+      "patient safety",
+      "6 sasaran"
+    ]
+  },
+  {
+    "id": "skp-002",
+    "category": "SKP",
+    "title": "Identifikasi Pasien",
+    "question": "Bagaimana prosedur identifikasi pasien?",
+    "answer": "Gunakan minimal dua identitas, yaitu nama dan tanggal lahir atau nomor rekam medis. Verifikasi dilakukan sebelum pemberian obat, transfusi, pengambilan sampel, pemeriksaan penunjang, dan tindakan medis.",
+    "keywords": [
+      "identifikasi",
+      "gelang pasien",
+      "rekam medis"
+    ]
+  },
+  {
+    "id": "skp-003",
+    "category": "SKP",
+    "title": "Komunikasi SBAR",
+    "question": "Apa yang dimaksud komunikasi SBAR?",
+    "answer": "SBAR adalah Situation atau kondisi terkini, Background atau informasi penting yang melatarbelakangi, Assessment atau hasil pengkajian, dan Recommendation atau rekomendasi tindakan yang diperlukan.",
+    "keywords": [
+      "SBAR",
+      "komunikasi",
+      "TULBAKON"
+    ]
+  },
+  {
+    "id": "skp-004",
+    "category": "SKP",
+    "title": "Obat High-Alert",
+    "question": "Bagaimana pengelolaan obat high-alert?",
+    "answer": "Simpan di lokasi khusus dengan akses terbatas, beri label High-Alert, lakukan independent double check, dan pastikan elektrolit konsentrat diencerkan sebelum diberikan sesuai ketentuan rumah sakit.",
+    "keywords": [
+      "high alert",
+      "LASA",
+      "obat"
+    ]
+  },
+  {
+    "id": "ppi-001",
+    "category": "PPI",
+    "title": "Hand Hygiene / Cuci Tangan",
+    "question": "Apa yang perlu dipahami tentang hand hygiene / cuci tangan?",
+    "answer": "5 MOMENT (2 SEBELUM, 3 SESUDAH)\nSEBELUM Kontak dengan Pasien\nSEBELUM melakukan Tindakan aseptic\nSETELAH terkena cairan tubuh Pasien\nSETELAH kontak dengan Pasien\nSETELAH kontak dengan lingkungan sekitar Pasien\n2 CARA CUCI TANGAN :\nDENGAN HAND RUB BERBASIS ALKOHOL, WAKTU 20 – 30 DETIK\nDENGAN HAND SOAP (SABUN ANTISEPTIK) DIBAWAH AIR MENGALIR, WAKTU 40 – 60 DETIK. LEBIH LAMA KARENA 6 LANGKAH CUCI TANGAN DILAKUKAN 2 KALI:  SAAT MEMAKAI SABUN DAN SAAT PEMBILASAN DIBAWAH AIR MENGALIR\n6 LANGKAH CUCI TANGAN\nLepaskan seluruh benda yang menempel ditangan (Jam, Cincin, Gelang)\nGulung lengan baju\nBuka Keran Air dan basahi telapak tangan dengan air (Bila memakai Sabun)\nTekan Dispenser Hand Soap / Hand Rub satu tekanan di telapak tangan, kemudian lakukan 6 langkah cuci tangan sebagai berikut :\nBiarkan tangan kering tanpa dilap, SELESAI (Bila memakai Hand Rub)\nBila memakai Hand Soap / sabun, lanjutkan dengan membilas tangan dibawah air keran dengan mengulang 6 Langkah cuci tangan\nAmbil Tissue, Keringkan tangan. JANGAN BUANG TISSUE BEKASNYA, Tutup dulu keran menggunakan Tissue bekas tersebut, baru kemudian buang Tissue ke tempat sampah. SELESAI.",
+    "keywords": [
+      "PPI",
+      "Hand Hygiene / Cuci Tangan"
+    ]
+  },
+  {
+    "id": "ppi-002",
+    "category": "PPI",
+    "title": "Alat Pelindung Diri (APD)",
+    "question": "Apa yang perlu dipahami tentang alat pelindung diri (apd)?",
+    "answer": "JENIS APD (Berurutan dari Atas ke Bawah) :\nHEAD CAP\nGOGGLES / FACE SHIELD\nMASKER\nGOWN / APRON\nSARUNG TANGAN / HANDSCOON / GLOVES\nBOOTS / SHOE COVER / SEPATU\nPENGGUNAAN APD\nTergantung tempat kerja",
+    "keywords": [
+      "PPI",
+      "Alat Pelindung Diri (APD)"
+    ]
+  },
+  {
+    "id": "ppi-003",
+    "category": "PPI",
+    "title": "Limbah",
+    "question": "Apa yang perlu dipahami tentang limbah?",
+    "answer": "Untuk Petugas Kebersihan : menggunakan Masker, Apron, Sarung Tangan Biasa, Sepatu\nUntuk Perawat dan Dokter di Klinik : menggunakan Head Cap, Goggles / Face Shield, Masker, Sarung Tangan, Apron/Gown, Sepatu\nUntuk Perawat Ruang Isolasi, Masker menggunakan N95\nUntuk Petugas Makanan menggunakan Masker\n3. LIMBAH\nLIMBAH NON INFEKSIUS / SAMPAH RUMAH TANGGA\nAdalah Limbah yang tidak terkontaminasi cairan tubuh, contoh : Sisa Makanan, kertas, bungkus makanan\nDibuang ke tempat sampah dengan Plastik warna HITAM\nPembuangan Akhir di tempat penampungan sampah sementara, dikelola oleh Dinas Kebersihan\nLIMBAH MEDIS / LIMBAH INFEKSIUS\nAdalah Limbah sisa proses perawatan atau Tindakan medis yang telah terkontaminasi cairan tubuh Pasien\nTerdiri dari Limbah Medis Padat dan Limbah Medis Cair\nDikelola secara KHUSUS, karena berpotensi menularkan infeksi\nLIMBAH MEDIS CAIR\nDibuang ke Spoelhoek. Spoelhoek Adalah saluran pembuangan khusus yang terhubung dengan IPAL (Instalasi Pengolahan Air limbah) Rumah Sakit\nContoh Limbah Medis Cair : Saliva dalam suction portable, produk darah\nTumpahan Cairan Tubuh yang mengkontaminasi permukaan harus dibersihkan dengan menggunakan Spill Kit, dengan tahapan sebagai berikut :\nAmbil Kotak Spill Kit yang telah tersedia\nAmankan Area tumpahan, Pasang Papan Tanda Peringatan\nGunakan APD (Masker, Goggle / Face Shield, Sarung Tangan)\nSiapkan 2 buah Platik Kuning terbuka, Platik pertama digunakan untuk membuang Limbah Infeksius dan Plastik kedua untuk menempatkan APD bekas Pakai yang dapat di pakai kembali setelah dibersihkan (Goggle, Boots atau Face Shield)\nTutup Cairan menggunakan Tissue, biarkan menyerap, bersihkan dengan gerakan melingkar, lakukan beberapa kali bila diperlukan sampai tumpahan benar – benar bersih\nBuang Tissue ke Platik Kuning Limbah\nTuangkan Cairan Disinfektan Klorin 0.5% pada bekas tumpahan, diamkan 5 menit dan bersihkan Kembali dengan Tissue\nBuang Tissue ke Plastik Kuning Limbah\nBersihkan lantai dengan Mop dan Pembersih lantai biasa\nLepaskan APD. APD disposable dibuang ke Platik Kuning Limbah (Masker, Sarung Tangan) dan APD yang reuse dapat ditempatkan ke Plastik Kuning lain untuk dibersihkan. Ikat erat seluruh Platik.\nLakukan kebersihan Tangan.\nBuat Laporan dan Permintaan untuk mengisi ulang kelengkapan Kotak spill Kit yang telah terpakai agar siap Kembali untuk digunakan\nLIMBAH MEDIS PADAT BENDA TAJAM\nSeluruh bahan atau benda bekas perawatan yang dapat melukai Pasien / Petugas seperti Jarum, Ampul bekas, kawat, Pisau Bedah\nDibuang ke Safety Box khusus berbahan tebal, berwarna Kuning dan memiliki Simbol ‘Hazardous Material’ di bagian luarnya\nLimbah Medis Benda Tajam TIDAK BOLEH DIBUANG KE TEMPAT SAMPAH PLASTIK BIASA\nPembuangan Limbah Medis Benda Tajam dilakukan sendiri oleh Dokter atau Perawat yang menggunakan dan tidak boleh menutup kembali jarum bekas pakai sebelum dibuang ke Safety Box.\nSafety Box diangkut setelah 2/3 Penuh, diangkut ke Tempat Penampungan Sementara dan dikelola sebagai Limbah Medis Infeksius oleh pihak ketiga\nLIMBAH MEDIS PADAT (BUKAN BENDA TAJAM)\nSeluruh bahan sisa perawatan yang sudah terkontaminasi cairan tubuh Pasien, Contoh : Kasa, Suction, Kapas, Tampon, masker, sarung tangan bekas pakai\nDibuang ke Tempat Sampah dengan PLASTIK WARNA KUNING\nPlastik Kuning di angkut setiap hari atau bila sudah 2/3 penuh, ke Tempat Penampungan Sementara sebagai Limbah Medis dan dikelola oleh pihak ketiga\nPENGANGKUTAN LIMBAH PADAT\nDilakukan oleh Petugas Limbah Rumah Sakit dari ruang perawatan ke Tempat Penampungan Sampah sementara\nPetugas WAJIB menggunakan APD LENGKAP\nPengangkutan Limbah dilakukan setiap hari atau bila ruang perawatan meminta untuk diangkut karena sudah 2/3 penuh\nTidak boleh menuang ataupun memilah sampah. Plastik sampah diikat erat dan tempatkan langsung plastic ke dalam troli yang Tertutup\nTempat Sampah di ruangan dikumpulkan dan dicuci bersih, dikembalikan ke ruangan dengan terpasang plastik kuning yang baru",
+    "keywords": [
+      "PPI",
+      "Limbah"
+    ]
+  },
+  {
+    "id": "ppi-004",
+    "category": "PPI",
+    "title": "Dekontaminasi dan Sterilisasi Alat",
+    "question": "Apa yang perlu dipahami tentang dekontaminasi dan sterilisasi alat?",
+    "answer": "STERILISASI\nDilakukan untuk semua Alat yang BISA DIPAKAI ULANG berdasarkan keterangan Pabrikan.\nCara Sterilisasi alat berbeda berdasarkan Fungsi alat : Kritikal, Semi Kritikal dan Non Kritikal\nKritikal adalah proses sterilisasi untuk alat yang digunakan berhubungan dengan jaringan steril atau system peredaran darah. Contoh : Instrumen Bedah\nSemi Kritikal adalah proses sterilisasi untuk alat yang berpotensi digunakan berhubungan dengan jaringan terbuka lecet atau luka gores. Contoh : Instrumen Penambalan, Instrumen Perawatan Gigi\nNon Kritikal Adalah proses dekontaminasi untuk alat yang berkontak dengan kulit utuh, Contoh : Stetoskop dan Manset Tensi Meter\nCSSD\nSeluruh Proses Sterilisasi di RSGMAU dilakukan secara TERPUSAT di CSSD (Central Sterile Supply Department). Tidak ada proses pencucian, perendaman ataupun sterilisasi di ruangan.\nSemua alat yang akan di steril ditempatkan dalam Box penampungan khusus untuk alat Kotor, dibawa ke CSSD melalui Jalur Kotor\nAlat Kotor dikirim setiap hari setelah selesai pelayanan Siang maupun Malam\nAlat yang sudah bersih dan steril sudah ditempatkan dalam Pouch khusus. Tidak boleh membuka Pouch. Tempatkan Pouches tersebut langsung ke dalam Box Khusus alat Bersih (Box berbeda dengan alat kotor), dan dibawa Kembali ke ruangan perawatan melalui Jalur Bersih (Berbeda dengan Jalur kotor), sebelum Jam pelayanan Pasien, Pagi maupun Sore\nAlat yang steril ditempatkan di lemari khusus alat bersih, tidak bercampur dengan bahan atau alat lainnya\nSebelum menempatkan dalam lemari penyimpanan, Petugas ruang perawatan wajib memastikan :\nPouch Alat Steril tertutup rapat, tidak ada bagian terbuka\nIndikator didalam Pouch berwarna Hitam, tanda bahwa alat sudah steril.\nPouch memiliki tanggal kadaluarsa\nBila ditemukan Pouch terbuka, indikator tidak Hitam ataupun tidak ada tanggal kadaluarsa alat, maka instrument didalamnya diperlakukan sebagai Alat kotor dan dibawa Kembali ke CSSD\nDEKONTAMINASI PERMUKAAN\nProses pembersihan permukaan menggunakan Tissue sekali pakai dengan desinfektan permukaan\nDilakukan keseluruh permukaan yang sering tersentuh tangan Pasien maupun operator\nDilakukan berurutan dari mulai daerah paling bersih ke daerah paling kotor\nDilakukan antara dua pasien (setelah selesai satu pasien sebelum Tindakan kepada pasien lainnya) dan Terminal (menyeluruh) setelah selesai jam pelayanan (Pasien terakhir)\nBMHP REUSE (SINGLE USE YANG DI REUSE\nAdalah bahan sekali pakai yang digunakan Kembali dengan pengawasan ketat\nHanya ada 1 BMHP Reuse, yaitu File Endodontik Protaper.\nSelain File endo, barang yang dinyatakan sekali pakai oleh Pabrikan (Disposable), hanya dipakai satu kali dan dibuang setelah pemakaian. Contoh : Bur diamond, Saliva Edjector, Jarum, Instrumen standard berbahan Plastik untuk ruang Penyakit Menular\nFile Endodontik Protaper disterilkan seperti alat lainnya, ditempatkan dalam Box khusus setelah pemakaian dan dikirim ke CSSD\nFile yang sudah steril dari CSSD, sebelum digunakan wajib diinspeksi kelayakan pakainya terlebih dahulu oleh Operator meliputi :\nAlat Utuh, tidak ada kerusakan dan cacat mikro ataupun makro\nFile lurus, tidak bengkok\nTidak terjadi elongasi pemanjangan ataupun pemendekan dan atau berubah bentuk\nElastis, tidak mudah Patah\nPemakaian Maksimal 4 kali yang ditunjukkan oleh karet indikator",
+    "keywords": [
+      "PPI",
+      "Dekontaminasi dan Sterilisasi Alat"
+    ]
+  },
+  {
+    "id": "ppi-005",
+    "category": "PPI",
+    "title": "Etika Batuk dan Bersin",
+    "question": "Apa yang perlu dipahami tentang etika batuk dan bersin?",
+    "answer": "Berlaku untuk semua Petugas, Pasien, Keluarga, Tenan maupun Pengunjung saat Batuk, Bersin atau memiliki gejala infeksi saluran napas\nOrang terindikasi Influenza ataupun penyakit infeksi pernapasan lainnya, WAJIB  MENGGUNAKAN MASKER selama berada di Lingkungan Rumah Sakit\nSaat Batuk ataupun Bersin, Hidung dan Mulut ditutup menggunakan lengan atas bagian dalam atau Tissue\nBuang Tissue ke tempat sampah dan lakukan Hand Hygiene",
+    "keywords": [
+      "PPI",
+      "Etika Batuk dan Bersin"
+    ]
+  },
+  {
+    "id": "ppi-006",
+    "category": "PPI",
+    "title": "Pajanan Infeksi",
+    "question": "Apa yang perlu dipahami tentang pajanan infeksi?",
+    "answer": "KASUS PAJANAN\nPajanan Infeksi Adalah Kondisi saat seseorang tanpa sengaja berkontak langsung dengan cairan tubuh infeksius pasien, atau benda tajam bekas pakai perawatan pasien yang berisiko menularkan penyakit.\nContoh Kasus Pajanan antara lain : Tertusuk Jarum suntik Bekas pakai Pasien, Mata Operator terciprat Darah Pasien, Luka pada tangan terpapar muntahan Pasien\nALUR PAJANAN\nSaat terpajan, hal yang perlu dilakukan pertama kali Adalah JANGAN PANIK.\nLangkah berikutnya Adalah dengan segera membersihkan area Pajanan, dengan ketentuan sebagai berikut :\nBila Pajanan terkena Kulit yang utuh tanpa luka atau bekas tusukan, maka daerah pajanan cukup dibersihkan dengan sabun dan Air Mengalir\nBila tertusuk jarum, biarkan darah mengalir sambil dibilas dibawah air mengalir. Luka tidak boleh ditekan atau dihisap, biarkan sampai darah berhenti mengalir untuk kemudian cuci dengan sabun dan cairan antiseptik\nBila Mukosa Mulut terkena pajanan, Ludahkan dan Kumur menggunakan air beberapa kali\nBila Mata terpercik Pajanan, Cuci dengan air mengalir dengan posisi miring kearah Mata yang terpajan\nBila Hidung terkena pajanan, Hembuskan keluar dan Bersihkan dengan Air\nLangkah selanjutnya adalah menghubungi Dokter UGD. Tindakan ini harus dilakukan Kurang dari 4 Jam dan Tidak Lebih dari 72 jam agar pemberian Profilaksis Pasca Pajanan (PPP) bila diperlukan, dapat berjalan efektif.\nDokter UGD akan melakukan :\nMenentukan Derajat Risiko penularan Infeksi dengan menganalisa Lokasi terpajan, Bahan Pajanan, Sumber Infeksi dan status Imunitas Orang terpajan\nPertimbangan untuk dilakukan pemeriksaan HbSAg, Anti HCV, Anti HIV\nMenetapkan memenuhi syarat untuk mendapatkan PPP\nMemutuskan untuk merujuk untuk mendapatkan pemeriksaan lebih lanjut bila diperlukan\nEdukasi dan Pendampingan Pasien\nLakukan segera pelaporan kepada Atasan Langsung, IPCN, Komite PPI atau Komite K3",
+    "keywords": [
+      "PPI",
+      "Pajanan Infeksi"
+    ]
+  },
+  {
+    "id": "kps-001",
+    "category": "KPS",
+    "title": "Inti KPS dan 5 TEPAT",
+    "question": "Apa inti KPS dan apa yang dimaksud 5 TEPAT?",
+    "answer": "KPS memastikan setiap staf sesuai kualifikasi, memahami tugas, kompeten saat mulai bekerja, mendapat orientasi, dinilai berkala, dikembangkan, dan dilindungi.\n\n5 TEPAT:\n1. TEPAT ORANG — jumlah, jenis, dan penempatan staf sesuai kebutuhan.\n2. TEPAT KOMPETENSI — pendidikan, pengalaman, pelatihan, dan kemampuan terbukti.\n3. TEPAT TUGAS — setiap staf memiliki dan memahami uraian tugas.\n4. TEPAT PENUGASAN — semua staf mengikuti uraian tugas dan SPO; staf klinis juga mengikuti SPK/RKK.\n5. TERUS DIJAGA — orientasi, kinerja, kompetensi, dokumen, dan keselamatan dipantau.\n\nEnam jawaban yang harus siap: siapa saya; apa tugas saya; orientasi yang sudah diikuti; bagaimana kompetensi dinilai; pelatihan terakhir dan penerapannya; serta alur keselamatan yang harus dilakukan.",
+    "keywords": [
+      "KPS",
+      "Kualifikasi dan Pendidikan Staf",
+      "buku saku KPS",
+      "telusur",
+      "survei",
+      "5 tepat",
+      "kompetensi",
+      "orientasi"
+    ]
+  },
+  {
+    "id": "kps-002",
+    "category": "KPS",
+    "title": "Kenali Jalur dan Peran Anda",
+    "question": "Apa perbedaan staf klinis, nonklinis, dan staf yang merangkap dua peran?",
+    "answer": "Staf klinis adalah tenaga medis, keperawatan/kebidanan, dan tenaga kesehatan lain yang memberi pelayanan atau asuhan kepada pasien.\n\nStaf nonklinis adalah staf manajemen, administrasi, dan pendukung yang tidak memberi pelayanan atau asuhan klinis sesuai jabatannya.\n\nBila merangkap dua peran, tugas manajerial/nonklinis mengikuti uraian tugas. Tugas klinis tetap wajib mengikuti kredensial, SPK, dan RKK.",
+    "keywords": [
+      "KPS",
+      "Kualifikasi dan Pendidikan Staf",
+      "buku saku KPS",
+      "telusur",
+      "survei",
+      "staf klinis",
+      "staf nonklinis",
+      "dua peran"
+    ]
+  },
+  {
+    "id": "kps-003",
+    "category": "KPS",
+    "title": "Staf Klinis: SIAP KLINIS",
+    "question": "Bagaimana alur staf klinis sejak bergabung sampai penugasan kembali?",
+    "answer": "SIAP KLINIS:\nS — Seleksi dan dokumen: ijazah, registrasi/izin, pengalaman, dan persyaratan diperiksa.\nI — Induksi/orientasi umum RSGM AU dan orientasi khusus unit.\nA — Asesmen kompetensi awal sebelum bekerja mandiri; area berisiko dinilai sebelum bertugas.\nP — Proses kredensial dan verifikasi dokumen dari sumber utama.\nK — Kewenangan dirinci melalui Rincian Kewenangan Klinis (RKK).\nL — Lembar Surat Penugasan Klinis (SPK) diterbitkan bersama RKK.\nI — Implementasi pelayanan hanya sesuai RKK, dengan supervisi bila dipersyaratkan.\nN — Nilai kinerja, perilaku, mutu, keselamatan, dan etik/disiplin dipantau berkala.\nI — Izin, sertifikat, pelatihan, dan kompetensi diperbarui.\nS — Siklus rekredensial dilakukan sesuai ketentuan rumah sakit dan peraturan yang berlaku.\n\nPALING KRUSIAL: staf klinis tidak boleh bekerja mandiri sebelum kredensial selesai dan SPK/RKK ditetapkan. Kompeten tidak otomatis berarti berwenang.",
+    "keywords": [
+      "KPS",
+      "Kualifikasi dan Pendidikan Staf",
+      "buku saku KPS",
+      "telusur",
+      "survei",
+      "SIAP KLINIS",
+      "SPK",
+      "RKK",
+      "kredensial"
+    ]
+  },
+  {
+    "id": "kps-004",
+    "category": "KPS",
+    "title": "Staf Nonklinis: SIAP KERJA",
+    "question": "Bagaimana alur staf nonklinis sampai kompetensinya terus terjaga?",
+    "answer": "SIAP KERJA:\nS — Seleksi dan dokumen: kualifikasi, pendidikan, pengalaman, identitas, dan persyaratan jabatan diperiksa.\nI — Induksi/orientasi umum RSGM AU dan orientasi khusus unit.\nA — Asesmen awal oleh kepala unit sebelum staf mulai bekerja.\nP — Penempatan, unit kerja, atasan langsung, dan uraian tugas ditetapkan.\nK — Kerjakan sesuai uraian tugas, SPO, target, dan batas tanggung jawab.\nE — Evaluasi kinerja didokumentasikan minimal setiap tahun atau sesuai ketentuan RSGM AU.\nR — Rawat kompetensi melalui pendidikan dan pelatihan sesuai kebutuhan dan risiko.\nJ — Jaga keselamatan, PPI, K3, BHD, keamanan data, dan etika.\nA — Arsip pendidikan, orientasi, tugas, pelatihan, kinerja, dan kesehatan diperbarui.\n\nPALING KRUSIAL: staf nonklinis bekerja sesuai uraian tugas dan SPO. Jangan melakukan tindakan klinis. Bila juga mempunyai tugas klinis, tugas tersebut wajib mengikuti SPK/RKK.",
+    "keywords": [
+      "KPS",
+      "Kualifikasi dan Pendidikan Staf",
+      "buku saku KPS",
+      "telusur",
+      "survei",
+      "SIAP KERJA",
+      "SPO",
+      "staf nonklinis"
+    ]
+  },
+  {
+    "id": "kps-005",
+    "category": "KPS",
+    "title": "5 JAGA untuk Semua Staf",
+    "question": "Apa saja 5 JAGA yang harus dilakukan seluruh staf?",
+    "answer": "1. JAGA TUGAS — pahami uraian tugas, atasan langsung, SPO, target, dan batas pekerjaan.\n2. JAGA KOMPETENSI — ikuti asesmen, pendidikan/pelatihan, dan terapkan hasilnya.\n3. JAGA DOKUMEN — pastikan data kepegawaian, sertifikat, dan izin yang dipersyaratkan tetap berlaku.\n4. JAGA KINERJA — ikuti evaluasi, ketahui hasilnya, dan lakukan tindak lanjut.\n5. JAGA KESELAMATAN — patuhi BHD, PPI, K3, keamanan data, etika, dan budaya keselamatan.\n\nPegangan staf klinis: uraian tugas + kredensial + SPK/RKK + evaluasi kinerja klinis.\nPegangan staf nonklinis: uraian tugas + SPO unit + kompetensi jabatan + evaluasi kinerja.\nPegangan staf dengan dua peran: uraian tugas untuk peran manajerial; SPK/RKK untuk pelayanan klinis.",
+    "keywords": [
+      "KPS",
+      "Kualifikasi dan Pendidikan Staf",
+      "buku saku KPS",
+      "telusur",
+      "survei",
+      "5 jaga",
+      "BHD",
+      "PPI",
+      "K3"
+    ]
+  },
+  {
+    "id": "kps-006",
+    "category": "KPS",
+    "title": "Batas Kewenangan dan Keadaan Penting",
+    "question": "Apa yang dilakukan saat diminta bekerja di luar kewenangan atau terjadi insiden?",
+    "answer": "Jika diminta bekerja di luar tugas atau kewenangan, jangan lakukan sendiri. Jelaskan batas tugas, hubungi atasan atau petugas berwenang, lalu ikuti supervisi atau alur rujukan internal.\n\nPajanan, cedera, insiden, atau kekerasan: amankan diri dan pasien, lakukan pertolongan awal sesuai kompetensi, laporkan segera melalui alur resmi, lalu ikuti evaluasi dan tindak lanjut.\n\nDokumen atau izin hampir habis: laporkan sebelum kedaluwarsa kepada atasan dan SDM. Staf klinis juga berkoordinasi dengan komite terkait.\n\nKondisi tidak aman: amankan area bila perlu dan eskalasikan kepada petugas berwenang.",
+    "keywords": [
+      "KPS",
+      "Kualifikasi dan Pendidikan Staf",
+      "buku saku KPS",
+      "telusur",
+      "survei",
+      "insiden",
+      "pajanan",
+      "kekerasan",
+      "batas kewenangan"
+    ]
+  },
+  {
+    "id": "kps-007",
+    "category": "KPS",
+    "title": "Jawaban Kilat Saat Telusur",
+    "question": "Apa jawaban singkat yang harus siap disampaikan saat survei?",
+    "answer": "Jawab jujur, singkat, sesuai praktik, dan tunjukkan bukti.\n\nTugas: sebutkan jabatan, unit, tugas utama, dan atasan langsung.\nOrientasi: sebutkan orientasi umum RSGM AU dan orientasi khusus unit yang sudah diikuti.\nKompetensi: jelaskan penilaian saat mulai bertugas dan evaluasi berkala.\nPelatihan: sebutkan pelatihan yang benar-benar diikuti, waktunya, manfaat, dan penerapannya.\nInsiden: amankan diri/pasien, lakukan pertolongan awal, laporkan, dan ikuti tindak lanjut.\nKlinis: SPK adalah penugasan klinis resmi; RKK adalah rincian tindakan yang boleh dilakukan.\nNonklinis: batas tugas adalah uraian tugas, kompetensi jabatan, dan SPO unit.\n\nCek 30 detik: saya tahu tugas dan atasan; sudah orientasi; tahu pelatihan terakhir; dokumen berlaku; tahu batas SPK/RKK atau SPO; tahu alur BHD, PPI, K3, pajanan, insiden, dan kekerasan; serta tahu hasil evaluasi kinerja.\n\nKalimat penutup: Kenal tugas. Kompeten. Patuh batas. Kinerja dinilai. Staf terlindungi. Pasien selamat.\n\nAcuan: KMK HK.01.07/MENKES/1596/2024 dan Instrumen Survei Akreditasi RS yang berlaku. Ikuti SPO serta regulasi internal RSGM AU.",
+    "keywords": [
+      "KPS",
+      "Kualifikasi dan Pendidikan Staf",
+      "buku saku KPS",
+      "telusur",
+      "survei",
+      "telusur",
+      "jawaban survei",
+      "dokumen staf",
+      "evaluasi kinerja"
+    ]
+  },
+  {
+    "id": "mfk-001",
+    "category": "MFK",
+    "title": "Kebakaran RACE",
+    "question": "Apa yang dilakukan saat menemukan kebakaran?",
+    "answer": "Gunakan RACE: Remove, pindahkan pasien dari bahaya; Alarm, panggil bantuan atau aktifkan alarm; Close, tutup pintu untuk mencegah api menjalar; Extinguisher, padamkan api dengan APAR bila aman.",
+    "keywords": [
+      "MFK",
+      "kebakaran",
+      "RACE"
+    ]
+  },
+  {
+    "id": "mfk-002",
+    "category": "MFK",
+    "title": "Penggunaan APAR PASS",
+    "question": "Bagaimana cara menggunakan APAR?",
+    "answer": "Gunakan PASS: Pull atau tarik pin, Aim atau arahkan selang ke sumber api, Squeeze atau tekan handle, dan Sweep atau sapukan media pemadam pada sumber api.",
+    "keywords": [
+      "APAR",
+      "PASS",
+      "K3"
+    ]
+  },
+  {
+    "id": "pkpo-001",
+    "category": "PKPO",
+    "title": "Medication Error",
+    "question": "Apa saja empat tahap medication error?",
+    "answer": "Prescribing adalah kesalahan peresepan, Transcribing adalah kesalahan membaca atau menyalin resep, Dispensing adalah kesalahan menyiapkan obat, dan Administration adalah kesalahan memberikan obat kepada pasien.",
+    "keywords": [
+      "PKPO",
+      "medication error",
+      "farmasi"
+    ]
+  },
+  {
+    "id": "pkpo-002",
+    "category": "PKPO",
+    "title": "Emergency Kit",
+    "question": "Apa yang dilakukan setelah emergency kit digunakan?",
+    "answer": "Catat obat dan alat yang digunakan, dokter menulis resep, perawat menyerahkan resep dan segel ke farmasi maksimal dua jam, lalu farmasi mengganti persediaan maksimal 2 x 24 jam dan troli dikunci kembali dengan segel baru.",
+    "keywords": [
+      "emergency kit",
+      "troli emergensi",
+      "Code Blue"
+    ]
+  },
+  {
+    "id": "hpk-001",
+    "category": "HPK",
+    "title": "Hak Pasien",
+    "question": "Apa saja hak utama pasien?",
+    "answer": "Pasien berhak memperoleh informasi yang benar, pelayanan sesuai kebutuhan medis dan standar profesi, menyetujui atau menolak tindakan, mengakses rekam medis, meminta second opinion, serta mendapatkan perlindungan privasi dan keamanan.",
+    "keywords": [
+      "HPK",
+      "hak pasien",
+      "privasi"
+    ]
+  },
+  {
+    "id": "ppra-001",
+    "category": "Program Nasional",
+    "title": "Antibiotik Bijak",
+    "question": "Mengapa antibiotik harus digunakan secara bijak?",
+    "answer": "Penggunaan antibiotik harus rasional agar mencegah resistensi antimikroba, meningkatkan keberhasilan terapi, menurunkan risiko efek samping, serta mengurangi lama dan biaya perawatan.",
+    "keywords": [
+      "PPRA",
+      "antibiotik",
+      "resistensi"
+    ]
+  },
+  {
+    "id": "skp-005",
+    "category": "SKP",
+    "title": "Tujuh Benar Pemberian Obat",
+    "question": "Apa saja tujuh prinsip benar dalam pemberian obat?",
+    "answer": "Benar obat, benar dosis, benar waktu, benar cara atau rute pemberian, benar pasien, benar informasi, dan benar dokumentasi.",
+    "keywords": [
+      "7 benar",
+      "pemberian obat",
+      "SKP"
+    ]
+  },
+  {
+    "id": "skp-006",
+    "category": "SKP",
+    "title": "Checklist Keselamatan Operasi",
+    "question": "Apa tahapan checklist keselamatan operasi?",
+    "answer": "Tahapannya meliputi Check In saat pasien tiba di area penerimaan, Sign In sebelum induksi anestesi, Time Out sebelum insisi, Sign Out setelah operasi selesai, dan Check Out saat serah terima pasien.",
+    "keywords": [
+      "surgical safety",
+      "operasi",
+      "checklist"
+    ]
+  },
+  {
+    "id": "skp-007",
+    "category": "SKP",
+    "title": "Risiko Pasien Jatuh",
+    "question": "Bagaimana pengkajian risiko jatuh dilakukan?",
+    "answer": "Pengkajian dilakukan saat pengkajian awal dan diulang berkala atau saat kondisi berubah. Gunakan instrumen yang ditetapkan RSGMAU, pasang penanda risiko jatuh, dan lakukan tatalaksana sesuai hasil penilaian.",
+    "keywords": [
+      "jatuh",
+      "Morse",
+      "Humpty Dumpty"
+    ]
+  },
+  {
+    "id": "pmkp-001",
+    "category": "PMKP",
+    "title": "Jenis Insiden Keselamatan Pasien",
+    "question": "Apa perbedaan KTD, KNC, KTC, KPC, dan sentinel?",
+    "answer": "KTD menimbulkan cedera; KNC belum sampai terpapar pasien; KTC sudah terpapar tetapi tidak menimbulkan cedera; KPC berpotensi menimbulkan cedera namun belum terjadi; sentinel adalah KTD yang mengakibatkan kematian atau cedera serius.",
+    "keywords": [
+      "PMKP",
+      "IKP",
+      "KTD",
+      "KNC"
+    ]
+  },
+  {
+    "id": "pmkp-002",
+    "category": "PMKP",
+    "title": "Pelaporan Insiden",
+    "question": "Apa yang dilakukan saat menemukan insiden keselamatan pasien?",
+    "answer": "Amankan pasien dan lakukan pertolongan awal, laporkan segera kepada atasan atau kepala unit, isi formulir laporan insiden, lalu serahkan melalui alur Komite Mutu dan Keselamatan Pasien.",
+    "keywords": [
+      "IKP",
+      "insiden",
+      "pelaporan"
+    ]
+  },
+  {
+    "id": "hpk-002",
+    "category": "HPK",
+    "title": "Informed Consent",
+    "question": "Kapan informed consent harus diperoleh?",
+    "answer": "Persetujuan diperoleh sebelum operasi, anestesi, penggunaan darah atau produk darah, tindakan berisiko tinggi, serta tindakan atau pengobatan lain yang memerlukan persetujuan setelah penjelasan memadai dari DPJP atau petugas terlatih.",
+    "keywords": [
+      "HPK",
+      "informed consent",
+      "DPJP"
+    ]
+  },
+  {
+    "id": "hpk-003",
+    "category": "HPK",
+    "title": "Edukasi Pasien",
+    "question": "Bagaimana memastikan edukasi pasien berhasil?",
+    "answer": "Berikan edukasi dengan bahasa yang dipahami, beri kesempatan bertanya, sesuaikan dengan kemampuan dan kondisi pasien, lalu verifikasi bahwa pasien atau keluarga memahami informasi. Dokumentasikan pada formulir edukasi.",
+    "keywords": [
+      "edukasi",
+      "PKRS",
+      "teach back"
+    ]
+  },
+  {
+    "id": "akp-001",
+    "category": "AKP",
+    "title": "Skrining dan Triase",
+    "question": "Bagaimana skrining dan triase dilakukan di UGD?",
+    "answer": "Skrining dilakukan pada kontak pertama untuk menentukan apakah pasien dapat dilayani. Triase berbasis bukti digunakan untuk memprioritaskan pasien berdasarkan tingkat kegawatan melalui observasi, pemeriksaan fisik, dan data penunjang yang relevan.",
+    "keywords": [
+      "AKP",
+      "triase",
+      "UGD"
+    ]
+  },
+  {
+    "id": "akp-002",
+    "category": "AKP",
+    "title": "Perencanaan Pemulangan",
+    "question": "Apa isi perencanaan pemulangan pasien?",
+    "answer": "Perencanaan pemulangan dibuat sejak awal, mencakup kebutuhan perawatan setelah pulang, edukasi, obat, tanda bahaya, kontrol, rujukan, dan dukungan keluarga atau fasilitas lanjutan bila diperlukan.",
+    "keywords": [
+      "discharge planning",
+      "pemulangan",
+      "rujukan"
+    ]
+  },
+  {
+    "id": "pap-001",
+    "category": "PAP",
+    "title": "Pengkajian Nyeri",
+    "question": "Bagaimana skala nyeri dipilih?",
+    "answer": "Gunakan skala numerik atau VAS untuk pasien yang dapat berkomunikasi, Wong-Baker untuk anak besar atau pasien yang sulit berkomunikasi, FLACC untuk anak nonverbal, dan CRIES untuk bayi kecil sesuai ketentuan rumah sakit.",
+    "keywords": [
+      "PAP",
+      "nyeri",
+      "NRS",
+      "FLACC"
+    ]
+  },
+  {
+    "id": "pab-001",
+    "category": "PAB",
+    "title": "Jenis Anestesia",
+    "question": "Apa saja jenis anestesia?",
+    "answer": "Jenisnya meliputi anestesia umum, anestesia regional seperti spinal, epidural, dan blok perifer, serta anestesia kombinasi yang menggabungkan anestesia umum dan regional.",
+    "keywords": [
+      "PAB",
+      "anestesia",
+      "sedasi"
+    ]
+  },
+  {
+    "id": "mkk-001",
+    "category": "MFK",
+    "title": "Evakuasi Rumah Sakit",
+    "question": "Apa tujuan jalur evakuasi dan titik kumpul?",
+    "answer": "Jalur evakuasi memberikan rute yang jelas dan aman bagi pasien, keluarga, dan petugas menuju titik kumpul ketika terjadi bencana. Kenali denah evakuasi dan titik kumpul di area kerja masing-masing.",
+    "keywords": [
+      "MFK",
+      "evakuasi",
+      "bencana"
+    ]
+  },
+  {
+    "id": "skp-008",
+    "category": "SKP",
+    "title": "Komunikasi Efektif",
+    "question": "Bagaimana memastikan komunikasi klinis tidak salah dipahami?",
+    "answer": "Gunakan komunikasi terstruktur dan lakukan read back atau repeat back untuk instruksi lisan/telepon. Dokumentasikan hasil komunikasi dan pastikan informasi penting diterima oleh petugas yang bertanggung jawab.",
+    "keywords": [
+      "SKP",
+      "komunikasi efektif",
+      "read back"
+    ]
+  },
+  {
+    "id": "skp-009",
+    "category": "SKP",
+    "title": "Pelaporan Nilai Kritis",
+    "question": "Apa yang dilakukan saat menerima hasil pemeriksaan kritis?",
+    "answer": "Terima dan catat hasil sesuai ketentuan, lakukan read back, segera informasikan kepada dokter atau petugas berwenang, dokumentasikan waktu serta penerima informasi, dan pantau tindak lanjutnya.",
+    "keywords": [
+      "SKP",
+      "nilai kritis",
+      "laboratorium"
+    ]
+  },
+  {
+    "id": "mfk-003",
+    "category": "MFK",
+    "title": "Kesiapsiagaan Bencana",
+    "question": "Apa yang harus dipahami staf tentang bencana?",
+    "answer": "Kenali jenis ancaman, kode darurat, peran masing-masing, jalur evakuasi, titik kumpul, alat pemadam, dan cara menghubungi bantuan. Ikuti simulasi serta laporkan kondisi tidak aman.",
+    "keywords": [
+      "MFK",
+      "bencana",
+      "simulasi"
+    ]
+  },
+  {
+    "id": "mfk-004",
+    "category": "MFK",
+    "title": "Keselamatan Listrik dan Gas",
+    "question": "Apa tindakan aman terkait listrik dan gas medis?",
+    "answer": "Jangan menggunakan kabel atau alat yang rusak, hindari sambungan berlebih, jaga sumber api dari oksigen, pastikan tabung aman dan berlabel, serta laporkan kebocoran atau kerusakan kepada petugas berwenang.",
+    "keywords": [
+      "MFK",
+      "listrik",
+      "gas medis"
+    ]
+  },
+  {
+    "id": "pkpo-003",
+    "category": "PKPO",
+    "title": "Rekonsiliasi Obat",
+    "question": "Apa tujuan rekonsiliasi obat?",
+    "answer": "Bandingkan obat yang biasa digunakan pasien dengan obat yang diresepkan pada setiap transisi pelayanan. Klarifikasi perbedaan, komunikasikan perubahan kepada pasien atau keluarga, dan dokumentasikan hasilnya.",
+    "keywords": [
+      "PKPO",
+      "rekonsiliasi obat",
+      "transisi"
+    ]
+  },
+  {
+    "id": "pkpo-004",
+    "category": "PKPO",
+    "title": "Penyimpanan Obat",
+    "question": "Apa yang diperhatikan dalam penyimpanan obat?",
+    "answer": "Jaga suhu, kelembapan, keamanan, dan pemisahan obat sesuai ketentuan. Terapkan FEFO, periksa kedaluwarsa dan integritas kemasan, serta pisahkan obat LASA dan high-alert dengan penandaan yang jelas.",
+    "keywords": [
+      "PKPO",
+      "penyimpanan obat",
+      "FEFO",
+      "LASA"
+    ]
+  },
+  {
+    "id": "hpk-004",
+    "category": "HPK",
+    "title": "Kerahasiaan Informasi",
+    "question": "Bagaimana menjaga privasi dan kerahasiaan pasien?",
+    "answer": "Akses informasi hanya sesuai kebutuhan tugas, verifikasi identitas penerima informasi, jaga percakapan dan dokumen dari pihak yang tidak berkepentingan, serta ikuti ketentuan persetujuan dan akses rekam medis.",
+    "keywords": [
+      "HPK",
+      "privasi",
+      "kerahasiaan"
+    ]
+  },
+  {
+    "id": "hpk-005",
+    "category": "HPK",
+    "title": "Keluhan Pasien",
+    "question": "Bagaimana merespons keluhan pasien?",
+    "answer": "Dengarkan dengan empati tanpa menyalahkan, pastikan kebutuhan mendesak ditangani, jelaskan jalur penyampaian keluhan, laporkan sesuai alur, dan dokumentasikan tindak lanjutnya.",
+    "keywords": [
+      "HPK",
+      "keluhan",
+      "pengaduan"
+    ]
+  },
+  {
+    "id": "ppra-002",
+    "category": "Program Nasional",
+    "title": "Pengendalian Resistensi",
+    "question": "Apa peran staf dalam pengendalian resistensi antimikroba?",
+    "answer": "Gunakan antibiotik sesuai indikasi dan instruksi klinis, patuhi kewaspadaan standar, edukasi pasien agar tidak menyimpan atau berbagi antibiotik, dan laporkan masalah penggunaan obat sesuai program rumah sakit.",
+    "keywords": [
+      "PPRA",
+      "resistensi antimikroba",
+      "antibiotik"
+    ]
+  },
+  {
+    "id": "pmkp-003",
+    "category": "PMKP",
+    "title": "Analisis Insiden",
+    "question": "Mengapa insiden perlu dianalisis?",
+    "answer": "Analisis dilakukan untuk menemukan faktor penyebab dan faktor kontributor secara sistemik, bukan untuk mencari kesalahan individu. Hasilnya digunakan untuk rencana perbaikan, penanggung jawab, dan pemantauan efektivitas.",
+    "keywords": [
+      "PMKP",
+      "analisis insiden",
+      "RCA"
+    ]
+  },
+  {
+    "id": "pmkp-004",
+    "category": "PMKP",
+    "title": "Indikator Mutu",
+    "question": "Apa yang harus dipahami staf tentang indikator mutu?",
+    "answer": "Pahami definisi operasional, sasaran, cara pengukuran, periode pengumpulan, dan tindak lanjut indikator di unit. Data harus dicatat jujur, dapat ditelusuri, dan digunakan untuk perbaikan berkelanjutan.",
+    "keywords": [
+      "PMKP",
+      "indikator mutu",
+      "perbaikan"
+    ]
+  },
+  {
+    "id": "akp-003",
+    "category": "AKP",
+    "title": "Identifikasi Kondisi Darurat",
+    "question": "Apa yang dilakukan bila kondisi pasien memburuk?",
+    "answer": "Kenali tanda bahaya, lakukan pertolongan awal sesuai kompetensi, panggil bantuan melalui alur yang berlaku, informasikan dokter atau tim terkait, pantau pasien, dan dokumentasikan respons serta evaluasinya.",
+    "keywords": [
+      "AKP",
+      "kondisi darurat",
+      "eskalasi"
+    ]
+  },
+  {
+    "id": "akp-004",
+    "category": "AKP",
+    "title": "Serah Terima Pasien",
+    "question": "Apa yang harus disampaikan saat serah terima?",
+    "answer": "Sampaikan identitas, kondisi terkini, diagnosis atau masalah utama, risiko, tindakan dan respons, obat atau alat penting, rencana berikutnya, serta hal yang perlu dipantau. Gunakan format komunikasi yang ditetapkan.",
+    "keywords": [
+      "AKP",
+      "handover",
+      "serah terima"
+    ]
+  },
+  {
+    "id": "pap-002",
+    "category": "PAP",
+    "title": "Asesmen Ulang Pasien",
+    "question": "Kapan pengkajian ulang pasien dilakukan?",
+    "answer": "Lakukan pengkajian ulang sesuai kondisi dan kebijakan rumah sakit, terutama setelah intervensi, ketika terjadi perubahan kondisi, atau sebelum keputusan penting. Catat hasil, respons pasien, dan rencana lanjutan.",
+    "keywords": [
+      "PAP",
+      "asesmen ulang",
+      "monitoring"
+    ]
+  },
+  {
+    "id": "pab-002",
+    "category": "PAB",
+    "title": "Keselamatan Sedasi",
+    "question": "Apa yang perlu diperhatikan sebelum dan sesudah sedasi?",
+    "answer": "Pastikan asesmen, persetujuan, kesiapan peralatan, pemantauan, dan petugas kompeten sesuai ketentuan. Setelah tindakan, pantau pemulihan dan berikan instruksi pemulangan yang dipahami pasien atau keluarga.",
+    "keywords": [
+      "PAB",
+      "sedasi",
+      "monitoring"
+    ]
+  },
+  {
+    "id": "mkk-002",
+    "category": "MFK",
+    "title": "Pelaporan Kondisi Tidak Aman",
+    "question": "Apa yang dilakukan saat menemukan kondisi atau alat yang tidak aman?",
+    "answer": "Amankan area bila perlu, hentikan penggunaan alat yang berisiko, beri tanda, laporkan kepada penanggung jawab, dan dokumentasikan perbaikan sampai kondisi dinyatakan aman.",
+    "keywords": [
+      "MFK",
+      "keselamatan kerja",
+      "pelaporan"
+    ]
+  },
+  {
+    "id": "mrmik-001",
+    "category": "MRMIK",
+    "title": "Petugas yang Berhak Mengisi Rekam Medis",
+    "question": "Siapa saja tenaga kesehatan yang berhak mengisi rekam medis?",
+    "answer": "Tenaga kesehatan yang berhak mengisi rekam medis meliputi dokter dan dokter gigi, perawat, apoteker, petugas rekam medis, petugas laboratorium, dan petugas radiologi sesuai kewenangan serta pelayanan yang diberikan.",
+    "keywords": [
+      "MRMIK",
+      "rekam medis",
+      "tenaga kesehatan"
+    ]
+  },
+  {
+    "id": "mrmik-002",
+    "category": "MRMIK",
+    "title": "Informasi pada SIM RS",
+    "question": "Informasi apa saja yang dikelola dalam SIM RS?",
+    "answer": "Sistem pengelolaan informasi pada SIM RS mencakup jumlah kunjungan pasien rawat jalan, jumlah 10 besar penyakit, jumlah kunjungan rawat inap, dan informasi hunian rawat inap.",
+    "keywords": [
+      "MRMIK",
+      "SIM RS",
+      "informasi kesehatan"
+    ]
+  },
+  {
+    "id": "mrmik-003",
+    "category": "MRMIK",
+    "title": "Downtime SIM RS",
+    "question": "Sebutkan dua jenis downtime.",
+    "answer": "Dua jenis downtime adalah downtime terencana dan downtime tidak terencana. Downtime terencana merupakan periode ketika mesin, sistem, atau layanan sengaja dimatikan berdasarkan jadwal, contohnya untuk perbaikan sistem. Downtime tidak terencana adalah penghentian sistem, mesin, atau layanan secara tiba-tiba tanpa peringatan atau jadwal sebelumnya, contohnya mati lampu.",
+    "keywords": [
+      "MRMIK",
+      "downtime",
+      "SIM RS"
+    ]
+  },
+  {
+    "id": "mrmik-004",
+    "category": "MRMIK",
+    "title": "Keamanan Akses SIM RS",
+    "question": "Bagaimana menjaga keamanan dan kerahasiaan informasi pada SIM RS?",
+    "answer": "Keamanan dan kerahasiaan informasi pada SIM RS dijaga dengan membatasi akses kepada petugas PPA, yaitu dokter atau dokter gigi, perawat, dan apoteker sesuai kewenangan. Setiap PPA memiliki username dan password masing-masing.",
+    "keywords": [
+      "MRMIK",
+      "kerahasiaan",
+      "username",
+      "password"
+    ]
+  },
+  {
+    "id": "mrmik-005",
+    "category": "MRMIK",
+    "title": "Keamanan Berkas Rekam Medis",
+    "question": "Bagaimana keamanan berkas rekam medis fisik dijaga?",
+    "answer": "Ruang rekam medis menggunakan fingerlock dan CCTV. Berkas rekam medis yang masih aktif atau berbentuk fisik disimpan menggunakan roll-o-pack.",
+    "keywords": [
+      "MRMIK",
+      "rekam medis fisik",
+      "fingerlock",
+      "CCTV"
+    ]
+  },
+  {
+    "id": "mrmik-006",
+    "category": "MRMIK",
+    "title": "Penyimpanan dan Pemusnahan Rekam Medis",
+    "question": "Bagaimana sistem penyimpanan dan pemusnahan berkas rekam medis di RSGMAU?",
+    "answer": "Sistem penyimpanan di RSGMAU tersentral di satu gedung dengan menggunakan unit penomoran terminal digit. Pada tahun 2025 telah dilakukan pemusnahan atau retensi berkas rekam medis.",
+    "keywords": [
+      "MRMIK",
+      "penyimpanan",
+      "retensi",
+      "pemusnahan"
+    ]
+  },
+  {
+    "id": "pp-001",
+    "category": "PP",
+    "title": "Kerangka Waktu Pengkajian Awal",
+    "question": "Berapa batas waktu penyelesaian pengkajian awal medis dan keperawatan?",
+    "answer": "Pengkajian awal gawat darurat harus diselesaikan dalam waktu 30 menit. Pengkajian awal rawat inap harus diselesaikan dalam waktu kurang dari 24 jam. Pengkajian rawat jalan harus diselesaikan dalam waktu kurang dari 30 menit sejak pasien masuk unit gawat darurat, rawat inap, atau rawat jalan.",
+    "keywords": [
+      "PP",
+      "asesmen awal",
+      "rawat jalan",
+      "rawat inap",
+      "gawat darurat"
+    ]
+  },
+  {
+    "id": "pp-002",
+    "category": "PP",
+    "title": "Pengulangan Pengkajian Awal",
+    "question": "Kapan pengkajian awal medis dan keperawatan diulang?",
+    "answer": "Pengkajian awal medis dan keperawatan rawat jalan diulang setelah lebih dari 30 hari oleh DPJP. Pengkajian awal rawat inap diulang setelah 1 bulan untuk penyakit akut dan setelah 3 bulan untuk penyakit kronis.",
+    "keywords": [
+      "PP",
+      "pengkajian ulang",
+      "DPJP",
+      "penyakit akut",
+      "penyakit kronis"
+    ]
+  },
+  {
+    "id": "pp-003",
+    "category": "PP",
+    "title": "Frekuensi Pengkajian Ulang CPPT",
+    "question": "Berapa kali pengkajian ulang CPPT dilakukan pada pasien rawat inap?",
+    "answer": "Pengkajian ulang CPPT rawat inap dilakukan oleh medis atau dokter minimal 1 kali sehari, oleh perawat minimal 1 kali per shift atau sesuai perubahan kondisi pasien, dan oleh PPA lainnya sesuai perubahan atau kondisi khusus pasien.",
+    "keywords": [
+      "PP",
+      "CPPT",
+      "pengkajian ulang",
+      "PPA"
+    ]
+  },
+  {
+    "id": "pp-004",
+    "category": "PP",
+    "title": "Populasi Khusus",
+    "question": "Siapa saja populasi khusus yang memerlukan asesmen tambahan di RSGMAU?",
+    "answer": "Populasi khusus di RSGMAU terdiri dari pasien anak usia kurang dari 12 tahun, pasien berkebutuhan khusus, pasien geriatri usia lebih dari 60 tahun, pasien penyakit menular, pasien neonatus, pasien remaja usia lebih dari 12 tahun sampai dengan 19 tahun, pasien obstetri atau ibu hamil, pasien tahap terminal, pasien risiko NAPZA, pasien bunuh diri dan kekerasan fisik, pasien kemoterapi, serta pasien imunologi.",
+    "keywords": [
+      "PP",
+      "populasi khusus",
+      "asesmen tambahan",
+      "anak",
+      "geriatri"
+    ]
+  },
+  {
+    "id": "pp-005",
+    "category": "PP",
+    "title": "Pengkajian Nutrisi",
+    "question": "Bagaimana pengkajian nutrisi dilakukan?",
+    "answer": "Pengkajian nutrisi menggunakan metode Malnutrition Screening Tools. Khusus anak usia kurang dari 12 tahun menggunakan penghitungan indeks massa tubuh atau IMT. Balita usia kurang dari 5 tahun menggunakan pengukuran lingkar lengan atau LiLa.",
+    "keywords": [
+      "PP",
+      "nutrisi",
+      "Malnutrition Screening Tools",
+      "IMT",
+      "LiLa"
+    ]
+  },
+  {
+    "id": "pp-006",
+    "category": "PP",
+    "title": "Pengkajian Risiko Jatuh",
+    "question": "Metode apa yang digunakan untuk pengkajian risiko jatuh?",
+    "answer": "Pengkajian risiko jatuh rawat jalan menggunakan metode Get Up and Go. Pengkajian risiko jatuh rawat inap menggunakan Morse Fall Scale untuk pasien dewasa dan Humpty Dumpty untuk anak. Semua pasien bayi dikategorikan sebagai pasien risiko jatuh.",
+    "keywords": [
+      "PP",
+      "risiko jatuh",
+      "Get Up and Go",
+      "Morse Fall Scale",
+      "Humpty Dumpty"
+    ]
+  },
+  {
+    "id": "pp-007",
+    "category": "PP",
+    "title": "Pengkajian Skala Nyeri",
+    "question": "Skala nyeri apa yang digunakan untuk pasien dewasa dan anak?",
+    "answer": "Skala nyeri menggunakan Numeric Rating Scale atau NRS dan Wong Baker Faces Pain Rating Scale atau WBFPRS untuk pasien dewasa dan anak usia lebih dari 4 tahun. FLACC digunakan pada anak usia kurang dari 4 tahun.",
+    "keywords": [
+      "PP",
+      "skala nyeri",
+      "NRS",
+      "WBFPRS",
+      "FLACC"
+    ]
+  },
+  {
+    "id": "ke-001",
+    "category": "KE & PKRS",
+    "title": "Pemberi Edukasi Pasien dan Keluarga",
+    "question": "Siapa yang memberikan edukasi kepada pasien dan keluarga?",
+    "answer": "Semua pemberian informasi dan edukasi kepada pasien dan keluarga diberikan oleh petugas yang berkompeten dan dikoordinasi oleh Instalasi PKRS atau Promosi Kesehatan Rumah Sakit. Petugas tersebut antara lain dokter, perawat, bidan, farmasis, nutrisionis, dan fisioterapis.",
+    "keywords": [
+      "KE",
+      "PKRS",
+      "edukasi pasien",
+      "petugas kompeten"
+    ]
+  },
+  {
+    "id": "ke-002",
+    "category": "KE & PKRS",
+    "title": "Peran Petugas dalam Edukasi",
+    "question": "Apa peran petugas RSGMAU dalam edukasi pasien dan keluarga?",
+    "answer": "Setiap petugas memiliki peran penting dalam edukasi pasien dan keluarga. Petugas memberi kesempatan kepada pasien dan keluarga untuk menimbang dan mengambil keputusan terbaik, bertanya dan berbicara sebagai partisipasi aktif, serta mendorong peran aktif pasien dan keluarga dalam memelihara dan meningkatkan kesehatan.",
+    "keywords": [
+      "KE",
+      "PKRS",
+      "partisipasi aktif",
+      "keputusan pasien"
+    ]
+  },
+  {
+    "id": "ke-003",
+    "category": "KE & PKRS",
+    "title": "Persiapan Sebelum Edukasi",
+    "question": "Apa yang harus disiapkan petugas sebelum melakukan edukasi kepada pasien?",
+    "answer": "Sebelum melakukan edukasi kepada pasien dan keluarga, petugas perlu membina hubungan saling percaya, menggunakan bahasa yang baik dan santun, memastikan kesiapan pasien dan keluarga menerima edukasi kesehatan, memilih topik yang akan didiskusikan, serta mempertimbangkan hambatan dalam penerimaan termasuk faktor budaya dan agama.",
+    "keywords": [
+      "KE",
+      "PKRS",
+      "persiapan edukasi",
+      "budaya",
+      "agama"
+    ]
+  },
+  {
+    "id": "ke-004",
+    "category": "KE & PKRS",
+    "title": "Asesmen Sebelum Edukasi",
+    "question": "Asesmen apa saja yang dilakukan sebelum edukasi pasien dan keluarga?",
+    "answer": "Asesmen sebelum edukasi meliputi keyakinan dan nilai-nilai pasien serta keluarga, kemampuan membaca, tingkat pendidikan, bahasa yang digunakan, hambatan emosional dan motivasi, keterbatasan fisik dan kognitif, serta kesediaan pasien menerima informasi.",
+    "keywords": [
+      "KE",
+      "PKRS",
+      "asesmen edukasi",
+      "literasi",
+      "motivasi"
+    ]
+  },
+  {
+    "id": "ke-005",
+    "category": "KE & PKRS",
+    "title": "Prosedur Pemberian Edukasi",
+    "question": "Bagaimana prosedur pemberian informasi dan edukasi kepada pasien dan keluarga?",
+    "answer": "Pemberian informasi dan edukasi dilakukan sesuai kebutuhan pasien dan keluarga, serta diberikan oleh petugas yang berkompetensi pada bidang terkait.",
+    "keywords": [
+      "KE",
+      "PKRS",
+      "informasi",
+      "edukasi"
+    ]
+  },
+  {
+    "id": "ke-006",
+    "category": "KE & PKRS",
+    "title": "Topik Edukasi Pasien",
+    "question": "Hal apa saja yang dilakukan petugas dalam memberikan edukasi kepada pasien?",
+    "answer": "Petugas dapat memberikan edukasi kepada pasien dan keluarga mengenai keamanan penggunaan obat, penatalaksanaan nyeri, penatalaksanaan asuhan keperawatan sesuai kasus penyakit, diet dan nutrisi, keamanan penggunaan alat-alat medis, teknik rehabilitasi, penanganan kebutuhan pribadi dan pemenuhan kebersihan diri atau personal hygiene, serta perawatan di rumah.",
+    "keywords": [
+      "KE",
+      "PKRS",
+      "edukasi kesehatan",
+      "obat",
+      "nutrisi",
+      "perawatan rumah"
+    ]
+  },
+  {
+    "id": "tkrs-001",
+    "category": "TKRS",
+    "title": "Visi Rumah Sakit",
+    "question": "Apa visi RSGMAU?",
+    "answer": "Menjadikan RSGMAU sebagai pusat kedokteran gigi penerbangan dan pusat rujukan terbaik bidang pelayanan kesehatan gigi dan mulut yang profesional, modern dan handal di lingkungan TNI dan sekitarnya.",
+    "keywords": [
+      "TKRS",
+      "visi",
+      "RSGMAU"
+    ]
+  },
+  {
+    "id": "tkrs-002",
+    "category": "TKRS",
+    "title": "Misi Rumah Sakit",
+    "question": "Apa misi RSGMAU?",
+    "answer": "Misi RSGMAU meliputi: melaksanakan dukungan kesehatan dengan mewujudkan kondisi kesehatan gigi dan mulut yang prima bagi prajurit TNI AU baik sebelum, selama maupun setelah kegiatan operasi dan latihan serta identifikasi gigi geligi bagi prajurit TNI AU; melaksanakan pelayanan promotif, preventif, kuratif, dan rehabilitatif kesehatan gigi dan mulut secara spesialistik sesuai dengan perkembangan ilmu pengetahuan dan teknologi kedokteran gigi bagi segenap personel TNI AU/TNI, PNS beserta keluarganya serta masyarakat umum dengan mengutamakan keselamatan pasien; dan melaksanakan pembinaan kompetensi dan penelitian pengembangan di bidang kedokteran gigi di lingkungan TNI AU khususnya bidang kedokteran gigi penerbangan.",
+    "keywords": [
+      "TKRS",
+      "misi",
+      "pelayanan kesehatan",
+      "keselamatan pasien"
+    ]
+  },
+  {
+    "id": "tkrs-003",
+    "category": "TKRS",
+    "title": "Motto Pelayanan PREMOLAR",
+    "question": "Apa motto pelayanan RSGMAU?",
+    "answer": "Motto pelayanan RSGMAU adalah PREMOLAR. PREMOLAR berarti melaksanakan pekerjaan dengan Profesional, Responsif, Edukatif, Menyenangkan, Optimal, Loyal, Aman, dan Ramah.",
+    "keywords": [
+      "TKRS",
+      "motto",
+      "PREMOLAR",
+      "nilai pelayanan"
+    ]
+  },
+  {
+    "id": "tkrs-004",
+    "category": "TKRS",
+    "title": "Logo dan Arti",
+    "question": "Apa arti logo RSGMAU?",
+    "answer": "Arti logo RSGMAU adalah: ular melingkari tongkat dengan sayap berwarna emas melambangkan kesehatan Angkatan Udara; tulisan huruf D atau Dentist berarti Kedokteran Gigi; lingkaran melambangkan kesoliditasan RSGMAU dalam melaksanakan tugas; dan warna dasar biru muda dan biru tua melambangkan warna TNI AU.",
+    "keywords": [
+      "TKRS",
+      "logo",
+      "identitas RSGMAU",
+      "TNI AU"
+    ]
+  },
+  {
+    "id": "tkrs-005",
+    "category": "TKRS",
+    "title": "Kode Etik Pelayanan RSGMAU",
+    "question": "Apa saja kode etik pelayanan RSGMAU?",
+    "answer": "Kode etik pelayanan RSGMAU meliputi: tidak boleh meminta imbalan atau tips pada pasien atau keluarga; tidak boleh memarahi pasien atau keluarga; selalu berbicara dengan suara yang rendah dan ramah pada pasien, keluarga dan pengunjung rumah sakit; tidak boleh menyalahkan atau menegur pasien; bila pasien atau keluarga tidak mengikuti aturan, sampaikan koreksi dengan lemah lembut, santun dan ramah; berupaya berhadapan dengan pasien atau keluarga dengan wajah cerah dan penuh senyum; selalu bersikap sabar terhadap pasien yang sedang emosi atau marah; tidak boleh membentak pasien atau keluarga dengan alasan apapun; terhadap pasien atau keluarga yang mengotot dan bersikukuh, petugas harus mengalah dan berupaya membantu agar keinginan pasien terwujud tetapi keamanan rumah sakit tetap terjaga; dan selalu mau meminta maaf kepada pasien atau keluarga bila ada kekurangan dalam pelayanan dan tidak boleh bersikap arogan.",
+    "keywords": [
+      "TKRS",
+      "kode etik",
+      "pelayanan",
+      "sikap petugas"
+    ]
+  }
+]
