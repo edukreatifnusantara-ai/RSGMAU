@@ -30,6 +30,14 @@ flutter:
     - assets/alur_pelaporan_kehilangan.jpg
     - assets/kanal_pengaduan_hpk.jpg
     - assets/race_pass_illustration.png
+    - assets/fire_race_01_rescue.png
+    - assets/fire_race_02_alarm.png
+    - assets/fire_race_03_confine.png
+    - assets/fire_race_04_extinguish.png
+    - assets/fire_pass_05_pull.png
+    - assets/fire_pass_06_aim.png
+    - assets/fire_pass_07_squeeze.png
+    - assets/fire_pass_08_sweep.png
     - assets/bhd_hero.png
     - assets/bhd_step_01_aman.png
     - assets/bhd_step_02_respons.png

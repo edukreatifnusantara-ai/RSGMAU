@@ -1514,27 +1514,53 @@ class RacePassPage extends StatelessWidget {
           style: TextStyle(color: muted, height: 1.45),
         ),
         const SizedBox(height: 18),
-        _block(
-          'RACE — TINDAKAN AWAL',
+        _fireStep(
+          'R  RESCUE / REMOVE',
+          'assets/fire_race_01_rescue.png',
           const Color(0xFF0E5B78),
-          Icons.emergency_rounded,
-          [
-            'R — Rescue/Remove: selamatkan atau pindahkan pasien dan orang yang berada dalam bahaya.',
-            'A — Alarm/Alert: aktifkan alarm, bunyikan kode darurat, dan laporkan kepada petugas/piket.',
-            'C — Confine/Contain: tutup pintu dan batasi penyebaran asap atau api bila aman.',
-            'E — Extinguish/Evacuate: gunakan APAR bila api kecil dan aman; bila tidak, segera evakuasi.',
-          ],
+          'Selamatkan atau pindahkan pasien dan orang yang berada dalam bahaya ke area yang lebih aman.',
         ),
-        _block(
-          'PASS — CARA MENGGUNAKAN APAR',
+        _fireStep(
+          'A  ALARM / ALERT',
+          'assets/fire_race_02_alarm.png',
           const Color(0xFFB53A1C),
-          Icons.fire_extinguisher_rounded,
-          [
-            'P — Pull: tarik pin pengaman APAR.',
-            'A — Aim: arahkan nozzle ke pangkal api.',
-            'S — Squeeze: tekan tuas APAR secara terkontrol.',
-            'S — Sweep: sapukan semprotan dari sisi ke sisi pada pangkal api.',
-          ],
+          'Aktifkan alarm, bunyikan kode darurat, dan laporkan kejadian kepada petugas atau piket.',
+        ),
+        _fireStep(
+          'C  CONFINE / CONTAIN',
+          'assets/fire_race_03_confine.png',
+          const Color(0xFF126257),
+          'Tutup pintu dan batasi penyebaran asap atau api bila kondisi tetap aman untuk dilakukan.',
+        ),
+        _fireStep(
+          'E  EXTINGUISH / EVACUATE',
+          'assets/fire_race_04_extinguish.png',
+          const Color(0xFF8A5A20),
+          'Gunakan APAR bila api masih kecil dan aman. Bila tidak aman, segera lakukan evakuasi.',
+        ),
+        _fireStep(
+          'P  PULL',
+          'assets/fire_pass_05_pull.png',
+          const Color(0xFF7A2412),
+          'Tarik pin pengaman APAR sebelum mengarahkan alat ke sumber api.',
+        ),
+        _fireStep(
+          'A  AIM',
+          'assets/fire_pass_06_aim.png',
+          const Color(0xFF9B3024),
+          'Arahkan nozzle ke pangkal api, bukan ke bagian atas nyala api.',
+        ),
+        _fireStep(
+          'S  SQUEEZE',
+          'assets/fire_pass_07_squeeze.png',
+          const Color(0xFFB53A1C),
+          'Tekan tuas APAR secara terkontrol untuk mengeluarkan bahan pemadam.',
+        ),
+        _fireStep(
+          'S  SWEEP',
+          'assets/fire_pass_08_sweep.png',
+          const Color(0xFF315C45),
+          'Sapukan semprotan dari sisi ke sisi pada pangkal api sampai padam atau situasi tidak lagi aman.',
         ),
         _block(
           'APAR BOLEH DIGUNAKAN JIKA',
@@ -1574,6 +1600,45 @@ class RacePassPage extends StatelessWidget {
         const Text(
           'Catatan: panduan ini adalah materi edukasi. Untuk pelaksanaan resmi, ikuti SPO kebakaran, evakuasi, kode darurat, dan instruksi petugas berwenang RSGMAU.',
           style: TextStyle(color: muted, fontSize: 12, height: 1.45),
+        ),
+      ],
+    ),
+  );
+
+  Widget _fireStep(
+    String title,
+    String asset,
+    Color color,
+    String explanation,
+  ) => Card(
+    elevation: 0,
+    color: Colors.white,
+    margin: const EdgeInsets.only(bottom: 14),
+    clipBehavior: Clip.antiAlias,
+    shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
+    child: Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        Container(
+          width: double.infinity,
+          padding: const EdgeInsets.fromLTRB(14, 13, 14, 13),
+          color: color,
+          child: Text(
+            title,
+            style: const TextStyle(
+              color: Colors.white,
+              fontWeight: FontWeight.w900,
+              fontSize: 14,
+            ),
+          ),
+        ),
+        Image.asset(asset, width: double.infinity, fit: BoxFit.cover),
+        Padding(
+          padding: const EdgeInsets.fromLTRB(15, 12, 15, 15),
+          child: Text(
+            explanation,
+            style: const TextStyle(color: navy, height: 1.45, fontSize: 14),
+          ),
         ),
       ],
     ),
