@@ -2048,6 +2048,46 @@ class EvakuasiPage extends StatelessWidget {
           child: Image.asset('assets/evakuasi_hero.png', fit: BoxFit.cover),
         ),
         const SizedBox(height: 16),
+        Card(
+          elevation: 0,
+          color: Colors.white,
+          clipBehavior: Clip.antiAlias,
+          shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.circular(16),
+          ),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Image.asset(
+                'assets/titik_kumpul_rsgmau.jpg',
+                width: double.infinity,
+                fit: BoxFit.cover,
+              ),
+              const Padding(
+                padding: EdgeInsets.fromLTRB(14, 12, 14, 14),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text(
+                      'TITIK KUMPUL',
+                      style: TextStyle(
+                        color: const Color(0xFF2C6339),
+                        fontSize: 16,
+                        fontWeight: FontWeight.w900,
+                      ),
+                    ),
+                    SizedBox(height: 3),
+                    Text(
+                      'Kenali rambu hijau bertuliskan “TITIK KUMPUL / ASSEMBLY POINT” di area yang telah ditentukan.',
+                      style: TextStyle(color: muted, height: 1.4),
+                    ),
+                  ],
+                ),
+              ),
+            ],
+          ),
+        ),
+        const SizedBox(height: 18),
         const Text(
           'EVAKUASI RUMAH SAKIT',
           style: TextStyle(
@@ -3049,6 +3089,54 @@ class _DetailPageState extends State<DetailPage> {
                 ),
               ),
             ),
+          if (widget.item.id == 'hpk-005') ...[
+            const SizedBox(height: 18),
+            Container(
+              decoration: BoxDecoration(
+                color: Colors.white,
+                borderRadius: BorderRadius.circular(16),
+                border: Border.all(color: const Color(0xFFD9E4EE)),
+              ),
+              clipBehavior: Clip.antiAlias,
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Image.asset(
+                    'assets/kanal_pengaduan_hpk.jpg',
+                    width: double.infinity,
+                    fit: BoxFit.cover,
+                  ),
+                  const Padding(
+                    padding: EdgeInsets.fromLTRB(14, 13, 14, 14),
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Text(
+                          'KANAL SARAN & PENGADUAN',
+                          style: TextStyle(
+                            color: navy,
+                            fontWeight: FontWeight.w900,
+                            fontSize: 14,
+                            letterSpacing: .4,
+                          ),
+                        ),
+                        SizedBox(height: 7),
+                        Text(
+                          'Offline: kotak saran di Ruang Pendaftaran Pasien atau pengaduan langsung melalui Front Office Lakesgilutau/drg. R. Poerwanto.',
+                          style: TextStyle(color: navy, height: 1.4, fontSize: 13),
+                        ),
+                        SizedBox(height: 6),
+                        Text(
+                          'Online: WhatsApp 0821-143-0506, Instagram @lakesgilutau dan @rsgm_angkatan_udara, serta rsgmtniau.com.',
+                          style: TextStyle(color: muted, height: 1.4, fontSize: 13),
+                        ),
+                      ],
+                    ),
+                  ),
+                ],
+              ),
+            ),
+          ],
           if (points.length > 1) ...[
             const SizedBox(height: 18),
             const Text(

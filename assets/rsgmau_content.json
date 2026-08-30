@@ -964,5 +964,78 @@
       "pelayanan",
       "sikap petugas"
     ]
+  },
+  {
+    "id": "pap-003",
+    "category": "PAP",
+    "title": "5 Tepat Pelayanan & Asuhan Pasien",
+    "question": "Apa prinsip utama pelayanan dan asuhan pasien yang harus dijaga?",
+    "answer": "Tepat Seragam: asuhan pasien seragam di seluruh unit pelayanan dengan mutu dan keselamatan yang sama; Tepat Integrasi: pelayanan terkoordinasi antar Profesional Pemberi Asuhan (PPA) menggunakan CPPT dan SBAR; Tepat Rencana: rencana asuhan individual dibuat berdasarkan asesmen awal dan diperbarui sesuai perkembangan klinis; Tepat Risiko: terapkan penanganan khusus untuk pasien dan pelayanan berisiko tinggi seperti EWS, Code Blue, restraint, geriatri, nutrisi, nyeri, dan pasien terminal; Terus Dievaluasi: pantau respons asuhan, perubahan kondisi, pemulihan, serta persiapan pulang melalui discharge planning.",
+    "keywords": [
+      "PAP",
+      "5 tepat",
+      "CPPT",
+      "SBAR",
+      "discharge planning"
+    ]
+  },
+  {
+    "id": "pap-004",
+    "category": "PAP",
+    "title": "SIAP PAP: Alur Pelayanan Pasien",
+    "question": "Bagaimana alur pelayanan pasien dari skrining sampai pemulangan?",
+    "answer": "S — Skrining & Asesmen Awal: identifikasi kebutuhan pasien dan buat rencana asuhan awal; I — Integrasi PPA: kolaborasi DPJP, perawat, apoteker, gizi, dan terapis dicatat terpadu di CPPT; A — Asuhan Sesuai SPO: tindakan klinis, pembedahan/anestesi, dan terapi obat mengikuti SPO serta Standar Pelayanan Kedokteran; P — Pemantauan & EWS: observasi tanda-tanda vital dan skor EWS secara teratur; P — Penanganan Risiko Tinggi: terapkan protokol khusus untuk risiko jatuh, nyeri, gizi buruk, restraint, atau kondisi terminal; A — Alur Handover SBAR: serah terima pergantian jaga atau transfer wajib komunikatif dan terverifikasi; P — Persiapan Pemulangan: discharge planning disiapkan sejak awal dengan melibatkan keluarga dan resume medis.",
+    "keywords": [
+      "PAP",
+      "SIAP PAP",
+      "EWS",
+      "handover",
+      "SBAR"
+    ]
+  },
+  {
+    "id": "pap-005",
+    "category": "PAP",
+    "title": "Pasien & Pelayanan Berisiko Tinggi",
+    "question": "Apa yang harus diperhatikan dalam pelayanan pasien berisiko tinggi?",
+    "answer": "Deteksi dini & gawat darurat: gunakan EWS dan aktifkan Tim Code Blue RSGM AU bila kondisi memburuk; Pasien restraint: hanya atas instruksi DPJP untuk keselamatan, observasi berkala setiap 15–30 menit, dan edukasi keluarga; Pasien geriatri & komorbid: lakukan pelayanan interdisiplin, asesmen komprehensif, dan pencegahan jatuh; Manajemen nyeri & nutrisi: lakukan asesmen nyeri awal dan ulang setelah intervensi, serta rujuk pasien berisiko nutrisi tinggi ke Dietisien; Pasien tahap terminal: hormati hak pasien dan keluarga, berikan manajemen nyeri optimal serta dukungan psikologis, sosial, dan spiritual.",
+    "keywords": [
+      "PAP",
+      "pasien risiko tinggi",
+      "EWS",
+      "Code Blue",
+      "restraint",
+      "geriatri"
+    ]
+  },
+  {
+    "id": "pap-006",
+    "category": "PAP",
+    "title": "5 Jaga Pokja PAP",
+    "question": "Apa saja 5 Jaga yang perlu dihafalkan staf klinis?",
+    "answer": "Jaga Keseragaman: berikan pelayanan standar yang sama di seluruh unit tanpa diskriminasi; Jaga Keamanan Pasien Berisiko: jalankan SPO EWS, Code Blue, restraint, nyeri, dan geriatri; Jaga Dokumentasi CPPT: tulis SOAP dengan tepat, komunikasikan melalui SBAR, dan minta verifikasi DPJP; Jaga Komunikasi Efektif: lakukan verifikasi read-back atau TBAK saat menerima instruksi verbal atau telepon; Jaga Mutu & Keselamatan: segera laporkan Kejadian Tidak Diharapkan (KTD) atau Nyaris Cedera (KNC).",
+    "keywords": [
+      "PAP",
+      "5 jaga",
+      "SOAP",
+      "TBAK",
+      "KTD",
+      "KNC"
+    ]
+  },
+  {
+    "id": "pap-007",
+    "category": "PAP",
+    "title": "Jawaban Kilat Telusur PAP",
+    "question": "Bagaimana menjawab pertanyaan telusur tentang asuhan terintegrasi dan kondisi pasien memburuk?",
+    "answer": "Asuhan terintegrasi: semua PPA menulis perkembangan pasien di CPPT dengan format SOAP dan DPJP melakukan verifikasi paling lambat 1x24 jam; Kondisi vital memburuk: hitung skor EWS, laporkan kepada DPJP menggunakan SBAR bila skor sedang atau tinggi, dan aktifkan Tim Code Blue bila memenuhi kriteria kegawatan; Pasien berisiko tinggi: lakukan asesmen khusus, tindakan sesuai SPO RSGM AU, pemantauan berkala yang didokumentasikan, serta penjelasan dan edukasi kepada keluarga.",
+    "keywords": [
+      "PAP",
+      "telusur akreditasi",
+      "CPPT",
+      "SOAP",
+      "DPJP",
+      "Code Blue"
+    ]
   }
 ]

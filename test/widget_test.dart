@@ -31,4 +31,12 @@ void main() {
     expect(find.text('Kepala RSGMAU'), findsOneWidget);
     expect(find.text('Ketua Akreditasi RSGMAU'), findsOneWidget);
   });
+
+  testWidgets('halaman evakuasi menampilkan foto titik kumpul', (tester) async {
+    await tester.pumpWidget(const MaterialApp(home: EvakuasiPage()));
+    await tester.pump();
+    expect(find.text('TITIK KUMPUL'), findsOneWidget);
+    expect(find.textContaining('ASSEMBLY POINT'), findsOneWidget);
+    expect(find.byType(Image), findsNWidgets(3));
+  });
 }

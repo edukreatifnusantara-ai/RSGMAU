@@ -26,10 +26,12 @@ flutter:
     - assets/apar/
     - assets/struktur_organisasi_rsgmau.jpg
     - assets/alur_pengaduan_pasien.jpg
+    - assets/kanal_pengaduan_hpk.jpg
     - assets/race_pass_illustration.png
     - assets/bhd_hero.png
     - assets/peta_evakuasi_rsgmau.jpg
     - assets/evakuasi_hero.png
+    - assets/titik_kumpul_rsgmau.jpg
     - assets/jatuh_01_aman.png
     - assets/jatuh_02_assessment.png
     - assets/jatuh_03_bantu.png
