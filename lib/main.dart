@@ -954,6 +954,7 @@ class TopicPage extends StatelessWidget {
       const Color(0xFFE0A11A),
     ];
     final points = _importantPoints(item.answer);
+    final isTkrs = item.category == 'TKRS';
     return Card(
       elevation: 0,
       color: Colors.white,
@@ -994,11 +995,16 @@ class TopicPage extends StatelessWidget {
               ClipRRect(
                 borderRadius: BorderRadius.circular(10),
                 child: Table(
-                  columnWidths: const {
-                    0: FixedColumnWidth(38),
-                    1: FlexColumnWidth(1.05),
-                    2: FlexColumnWidth(1.75),
-                  },
+                  columnWidths: isTkrs
+                      ? const {
+                          0: FixedColumnWidth(38),
+                          1: FlexColumnWidth(1),
+                        }
+                      : const {
+                          0: FixedColumnWidth(38),
+                          1: FlexColumnWidth(1.05),
+                          2: FlexColumnWidth(1.75),
+                        },
                   border: TableBorder.all(
                     color: const Color(0xFFDCE4EA),
                     width: .8,
@@ -1041,23 +1047,22 @@ class TopicPage extends StatelessWidget {
                             ),
                           ),
                         ),
-                        Container(
-                          color: accent.withValues(alpha: .14),
-                          constraints: const BoxConstraints(minHeight: 56),
-                          padding: const EdgeInsets.all(8),
-                          alignment: Alignment.centerLeft,
-                          child: Text(
-                            label.isEmpty
-                                ? (item.category == 'TKRS' ? 'Informasi' : 'Poin penting')
-                                : label,
-                            style: TextStyle(
-                              color: accent,
-                              fontSize: 12,
-                              fontWeight: FontWeight.w900,
-                              height: 1.2,
+                        if (!isTkrs)
+                          Container(
+                            color: accent.withValues(alpha: .14),
+                            constraints: const BoxConstraints(minHeight: 56),
+                            padding: const EdgeInsets.all(8),
+                            alignment: Alignment.centerLeft,
+                            child: Text(
+                              label.isEmpty ? 'Poin penting' : label,
+                              style: TextStyle(
+                                color: accent,
+                                fontSize: 12,
+                                fontWeight: FontWeight.w900,
+                                height: 1.2,
+                              ),
                             ),
                           ),
-                        ),
                         Container(
                           color: Colors.white,
                           constraints: const BoxConstraints(minHeight: 56),
