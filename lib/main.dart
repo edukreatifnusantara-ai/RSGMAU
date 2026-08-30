@@ -860,18 +860,6 @@ class TopicPage extends StatelessWidget {
           if (topic.code == 'MFK') _aparCard(context),
           if (topic.code == 'KPS') _kpsVisualCard(),
           if (topic.code == 'HPK') _hpkPosterCard(),
-          if (topic.code != 'TKRS')
-            const Padding(
-              padding: EdgeInsets.only(bottom: 10),
-              child: Text(
-                'Poin penting',
-                style: TextStyle(
-                  color: navy,
-                  fontSize: 18,
-                  fontWeight: FontWeight.w800,
-                ),
-              ),
-            ),
           ...matches.map((item) => _importantPointCard(item)),
           if (matches.isEmpty)
             const Padding(
@@ -954,7 +942,6 @@ class TopicPage extends StatelessWidget {
       const Color(0xFFE0A11A),
     ];
     final points = _importantPoints(item.answer);
-    final isTkrs = item.category == 'TKRS';
     return Card(
       elevation: 0,
       color: Colors.white,
@@ -995,16 +982,7 @@ class TopicPage extends StatelessWidget {
               ClipRRect(
                 borderRadius: BorderRadius.circular(10),
                 child: Table(
-                  columnWidths: isTkrs
-                      ? const {
-                          0: FixedColumnWidth(38),
-                          1: FlexColumnWidth(1),
-                        }
-                      : const {
-                          0: FixedColumnWidth(38),
-                          1: FlexColumnWidth(1.05),
-                          2: FlexColumnWidth(1.75),
-                        },
+                  columnWidths: const {0: FlexColumnWidth(1)},
                   border: TableBorder.all(
                     color: const Color(0xFFDCE4EA),
                     width: .8,
@@ -1012,66 +990,18 @@ class TopicPage extends StatelessWidget {
                   children: points.asMap().entries.map((entry) {
                     final i = entry.key;
                     final point = entry.value;
-                    final separator = point.indexOf(' — ');
-                    final colon = point.indexOf(': ');
-                    final splitAt = separator > 0 ? separator : colon;
-                    final hasLabel = splitAt > 0;
-                    final marker = hasLabel
-                        ? (RegExp(r'^\\d+').firstMatch(point)?.group(0) ??
-                              '${i + 1}')
-                        : '•';
-                    final label = hasLabel
-                        ? point
-                              .substring(0, splitAt)
-                              .replaceFirst(RegExp(r'^\\d+\\.\\s*'), '')
-                              .trim()
-                        : '';
-                    final body = hasLabel
-                        ? point
-                              .substring(splitAt + (separator > 0 ? 3 : 2))
-                              .trim()
-                        : point;
                     final accent = colors[i % colors.length];
                     return TableRow(
                       children: [
                         Container(
-                          color: accent,
+                          color: accent.withValues(alpha: .08),
                           constraints: const BoxConstraints(minHeight: 56),
-                          alignment: Alignment.center,
-                          child: Text(
-                            marker,
-                            style: const TextStyle(
-                              color: Colors.white,
-                              fontSize: 16,
-                              fontWeight: FontWeight.w900,
-                            ),
-                          ),
-                        ),
-                        if (!isTkrs)
-                          Container(
-                            color: accent.withValues(alpha: .14),
-                            constraints: const BoxConstraints(minHeight: 56),
-                            padding: const EdgeInsets.all(8),
-                            alignment: Alignment.centerLeft,
-                            child: Text(
-                              label.isEmpty ? 'Poin penting' : label,
-                              style: TextStyle(
-                                color: accent,
-                                fontSize: 12,
-                                fontWeight: FontWeight.w900,
-                                height: 1.2,
-                              ),
-                            ),
-                          ),
-                        Container(
-                          color: Colors.white,
-                          constraints: const BoxConstraints(minHeight: 56),
-                          padding: const EdgeInsets.all(8),
+                          padding: const EdgeInsets.fromLTRB(12, 11, 12, 11),
                           alignment: Alignment.centerLeft,
                           child: Text(
-                            body,
-                            style: const TextStyle(
-                              color: Color(0xFF263532),
+                            point,
+                            style: TextStyle(
+                              color: const Color(0xFF263532),
                               fontSize: 12,
                               height: 1.3,
                             ),
