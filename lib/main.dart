@@ -1426,29 +1426,57 @@ class PengaduanPage extends StatelessWidget {
           style: TextStyle(color: muted, height: 1.4),
         ),
         const SizedBox(height: 16),
-        Card(
-          elevation: 0,
-          clipBehavior: Clip.antiAlias,
-          color: Colors.white,
-          shape: RoundedRectangleBorder(
-            borderRadius: BorderRadius.circular(16),
-          ),
-          child: InteractiveViewer(
-            minScale: 0.8,
-            maxScale: 4,
-            child: Image.asset(
-              'assets/alur_pengaduan_pasien.jpg',
-              fit: BoxFit.contain,
-            ),
-          ),
+        _alurImageCard(
+          'ALUR PENGADUAN PASIEN',
+          'assets/alur_pengaduan_pasien.jpg',
+        ),
+        const SizedBox(height: 14),
+        _alurImageCard(
+          'ALUR PENGADUAN PASIEN — RINGKAS',
+          'assets/alur_pengaduan_pasien_02.jpg',
+        ),
+        const SizedBox(height: 14),
+        _alurImageCard(
+          'ALUR PELAPORAN KEHILANGAN BARANG PASIEN',
+          'assets/alur_pelaporan_kehilangan.jpg',
         ),
         const SizedBox(height: 10),
         const Text(
-          'Perbesar gambar untuk membaca alur, kategori pengaduan, tindak lanjut, dan informasi kontak.',
+          'Perbesar gambar untuk membaca alur, kategori pengaduan, tindak lanjut, dan pelaporan kehilangan barang pasien.',
           style: TextStyle(color: muted, fontSize: 12),
         ),
       ],
     ),
+  );
+
+  Widget _alurImageCard(String title, String asset) => Column(
+    crossAxisAlignment: CrossAxisAlignment.start,
+    children: [
+      Padding(
+        padding: const EdgeInsets.only(left: 4, bottom: 7),
+        child: Text(
+          title,
+          style: const TextStyle(
+            color: navy,
+            fontSize: 14,
+            fontWeight: FontWeight.w900,
+          ),
+        ),
+      ),
+      Card(
+        elevation: 0,
+        clipBehavior: Clip.antiAlias,
+        color: Colors.white,
+        shape: RoundedRectangleBorder(
+          borderRadius: BorderRadius.circular(16),
+        ),
+        child: InteractiveViewer(
+          minScale: 0.8,
+          maxScale: 4,
+          child: Image.asset(asset, fit: BoxFit.contain),
+        ),
+      ),
+    ],
   );
 }
 

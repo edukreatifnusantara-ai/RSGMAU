@@ -26,6 +26,8 @@ flutter:
     - assets/apar/
     - assets/struktur_organisasi_rsgmau.jpg
     - assets/alur_pengaduan_pasien.jpg
+    - assets/alur_pengaduan_pasien_02.jpg
+    - assets/alur_pelaporan_kehilangan.jpg
     - assets/kanal_pengaduan_hpk.jpg
     - assets/race_pass_illustration.png
     - assets/bhd_hero.png
