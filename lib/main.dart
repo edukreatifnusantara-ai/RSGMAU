@@ -793,6 +793,27 @@ List<String> _importantPoints(String text) {
       .toList();
 }
 
+Color _pokjaAccent(String category) {
+  const palette = <String, Color>{
+    'TKRS': Color(0xFF0E5B78),
+    'KPS': Color(0xFF168AAD),
+    'MFK': Color(0xFFB53A1C),
+    'PPI': Color(0xFF147D70),
+    'PMKP': Color(0xFF7B61A8),
+    'MRMIK': Color(0xFF526A8A),
+    'AKP': Color(0xFF8A5A20),
+    'HPK': Color(0xFFE85D75),
+    'PP': Color(0xFF3C7A4A),
+    'PAP': Color(0xFF1261A0),
+    'PAB': Color(0xFF7A2412),
+    'PKPO': Color(0xFF6B4E9B),
+    'KE & PKRS': Color(0xFFB87818),
+    'SKP': Color(0xFF315C45),
+    'Program Nasional': Color(0xFF6D4C41),
+  };
+  return palette[category] ?? navy;
+}
+
 class TopicPage extends StatelessWidget {
   final Topic topic;
   final List<BookItem> items;
@@ -887,8 +908,8 @@ class TopicPage extends StatelessWidget {
   );
 
   Widget _importantPointCard(BookItem item) {
-    if (item.category == 'KPS') return _kpsStructuredCard(item);
-    return Card(
+    return _pokjaStructuredCard(item);
+    /* return Card(
       elevation: 0,
       color: Colors.white,
       margin: const EdgeInsets.only(bottom: 10),
@@ -920,10 +941,10 @@ class TopicPage extends StatelessWidget {
           ],
         ),
       ),
-    );
+    ); */
   }
 
-  Widget _kpsStructuredCard(BookItem item) {
+  Widget _pokjaStructuredCard(BookItem item) {
     final colors = [
       const Color(0xFF168AAD),
       const Color(0xFFF28F3B),
@@ -942,12 +963,28 @@ class TopicPage extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Text(
-              item.title,
-              style: const TextStyle(
-                color: navy,
-                fontWeight: FontWeight.w900,
-                fontSize: 17,
+            Container(
+              width: double.infinity,
+              padding: const EdgeInsets.fromLTRB(12, 10, 12, 10),
+              decoration: BoxDecoration(
+                color: _pokjaAccent(item.category),
+                borderRadius: BorderRadius.circular(11),
+              ),
+              child: Row(
+                children: [
+                  const Icon(Icons.auto_awesome_rounded, color: Colors.white, size: 20),
+                  const SizedBox(width: 8),
+                  Expanded(
+                    child: Text(
+                      item.title,
+                      style: const TextStyle(
+                        color: Colors.white,
+                        fontWeight: FontWeight.w900,
+                        fontSize: 15,
+                      ),
+                    ),
+                  ),
+                ],
               ),
             ),
             const SizedBox(height: 11),
