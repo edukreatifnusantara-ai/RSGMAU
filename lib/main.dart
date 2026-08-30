@@ -489,17 +489,13 @@ class HomePage extends StatelessWidget {
           'Pelajari tugas, prosedur, dan jawaban penting akreditasi.',
           style: TextStyle(color: Colors.white, height: 1.45, fontSize: 14),
         ),
-        const SizedBox(height: 18),
-        FilledButton.icon(
-          onPressed: () => Navigator.push(
-            context,
-            MaterialPageRoute(builder: (_) => LatihanPage(items: items)),
-          ),
-          icon: const Icon(Icons.arrow_forward_rounded),
-          label: const Text('Mulai latihan'),
-          style: FilledButton.styleFrom(
-            backgroundColor: gold,
-            foregroundColor: navy,
+        const SizedBox(height: 12),
+        const Text(
+          'Buku Saku ini memuat seluruh materi-materi pokja dan tanya jawab latihan untuk lebih siap memahami tugas dan tanggung jawab dari masing-masing individu.',
+          style: TextStyle(
+            color: Colors.white,
+            height: 1.45,
+            fontSize: 14,
           ),
         ),
       ],
