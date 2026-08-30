@@ -31,6 +31,14 @@ flutter:
     - assets/kanal_pengaduan_hpk.jpg
     - assets/race_pass_illustration.png
     - assets/bhd_hero.png
+    - assets/bhd_step_01_aman.png
+    - assets/bhd_step_02_respons.png
+    - assets/bhd_step_03_bantuan.png
+    - assets/bhd_step_04_napas.png
+    - assets/bhd_step_05_tangan.png
+    - assets/bhd_step_06_kompresi.png
+    - assets/bhd_step_07_aed.png
+    - assets/bhd_step_08_sadar.png
     - assets/peta_evakuasi_rsgmau.jpg
     - assets/evakuasi_hero.png
     - assets/titik_kumpul_rsgmau.jpg

@@ -1905,55 +1905,53 @@ class BhdPage extends StatelessWidget {
           style: TextStyle(color: muted, height: 1.45),
         ),
         const SizedBox(height: 18),
-        _safety(
-          '3A — PASTIKAN KESELAMATAN',
+        _bhdStep(
+          '1  PASTIKAN LOKASI AMAN',
+          'assets/bhd_step_01_aman.png',
           const Color(0xFF0E5B78),
-          Icons.shield_rounded,
-          [
-            'Aman penolong: gunakan APD sesuai risiko dan jangan menolong bila lokasi membahayakan.',
-            'Aman pasien: pastikan identitas, kondisi, posisi, dan kebutuhan bantuan pasien.',
-            'Aman lingkungan: amankan sumber bahaya, beri ruang untuk tim, dan minta orang sekitar membantu akses.',
-          ],
+          'Pastikan lokasi aman sebelum mendekati korban. Utamakan keselamatan penolong, korban, dan orang di sekitar.',
         ),
-        _safety(
-          'KENALI & PANGGIL BANTUAN',
-          const Color(0xFFB53A1C),
-          Icons.campaign_rounded,
-          [
-            'Periksa respons pasien dan napas secara singkat.',
-            'Jika tidak responsif dan tidak bernapas normal, segera aktifkan Code Blue sesuai sistem RSGMAU.',
-            'Minta seseorang mengambil AED/defibrilator dan perlengkapan resusitasi.',
-          ],
-        ),
-        _safety(
-          'CPR BERKUALITAS',
+        _bhdStep(
+          '2  CEK RESPONS KORBAN',
+          'assets/bhd_step_02_respons.png',
           const Color(0xFF1261A0),
-          Icons.favorite_rounded,
-          [
-            'Mulai kompresi dada segera bila terlatih dan aman dilakukan.',
-            'Biarkan dada mengembang kembali dan minimalkan jeda kompresi.',
-            'Lakukan ventilasi sesuai pelatihan, APD, alat yang tersedia, dan kebijakan rumah sakit.',
-          ],
+          'Panggil korban dengan suara jelas dan tepuk bahunya secara perlahan. Amati apakah korban merespons.',
         ),
-        _safety(
-          'AED & TIM RESUSITASI',
+        _bhdStep(
+          '3  MINTA BANTUAN',
+          'assets/bhd_step_03_bantuan.png',
+          const Color(0xFFB53A1C),
+          'Jika korban tidak merespons, minta bantuan. Tunjuk orang tertentu untuk menghubungi bantuan medis dan mengambil AED.',
+        ),
+        _bhdStep(
+          '4  CEK PERNAPASAN',
+          'assets/bhd_step_04_napas.png',
+          const Color(0xFF126257),
+          'Buka jalan napas dan periksa apakah korban bernapas normal. Jangan menganggap megap-megap sebagai pernapasan normal.',
+        ),
+        _bhdStep(
+          '5  POSISIKAN TANGAN',
+          'assets/bhd_step_05_tangan.png',
           const Color(0xFF8A5A20),
-          Icons.monitor_heart_rounded,
-          [
-            'Pasang dan gunakan AED/defibrilator segera setelah tersedia oleh petugas yang kompeten.',
-            'Ikuti instruksi alat; pastikan tidak ada orang menyentuh pasien saat analisis atau kejut.',
-            'Serahkan penanganan lanjutan kepada tim resusitasi dan ikuti arahan pemimpin tim.',
-          ],
+          'Letakkan pangkal telapak tangan di tengah dada, kemudian tumpuk tangan lainnya. Jaga lengan tetap lurus.',
         ),
-        _safety(
-          'SETELAH TINDAKAN',
+        _bhdStep(
+          '6  LAKUKAN KOMPRESI DADA',
+          'assets/bhd_step_06_kompresi.png',
+          const Color(0xFF9B3024),
+          'Tekan dada dengan kuat dan cepat secara berirama. Biarkan dada kembali mengembang dan minimalkan jeda.',
+        ),
+        _bhdStep(
+          '7  BANTUAN NAPAS & AED',
+          'assets/bhd_step_07_aed.png',
           const Color(0xFF315C45),
-          Icons.fact_check_rounded,
-          [
-            'Lakukan serah terima dan perawatan lanjutan sesuai keputusan tim.',
-            'Dokumentasikan waktu, tindakan, alat, respons, dan hasil sesuai ketentuan.',
-            'Lakukan debriefing dan pelaporan sesuai kebijakan rumah sakit.',
-          ],
+          'Lakukan bantuan napas sesuai pelatihan dan gunakan AED bila tersedia. Ikuti instruksi alat serta pastikan tidak ada yang menyentuh korban saat analisis atau kejut.',
+        ),
+        _bhdStep(
+          '8  KORBAN SADAR & BERNAPAS NORMAL',
+          'assets/bhd_step_08_sadar.png',
+          const Color(0xFF2C6339),
+          'Jika korban sadar dan bernapas normal, pantau kondisinya dan posisikan dengan aman sambil menunggu bantuan medis. Jika belum sadar atau belum bernapas normal, lanjutkan BHD.',
         ),
         Container(
           padding: const EdgeInsets.all(14),
@@ -1984,77 +1982,39 @@ class BhdPage extends StatelessWidget {
     ),
   );
 
-  Widget _safety(
+  Widget _bhdStep(
     String title,
+    String asset,
     Color color,
-    IconData icon,
-    List<String> points,
+    String explanation,
   ) => Card(
     elevation: 0,
     color: Colors.white,
-    margin: const EdgeInsets.only(bottom: 12),
+    margin: const EdgeInsets.only(bottom: 14),
+    clipBehavior: Clip.antiAlias,
     shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
     child: Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         Container(
           width: double.infinity,
-          padding: const EdgeInsets.all(14),
-          decoration: BoxDecoration(
-            color: color,
-            borderRadius: const BorderRadius.vertical(top: Radius.circular(16)),
-          ),
-          child: Row(
-            children: [
-              Icon(icon, color: Colors.white),
-              const SizedBox(width: 9),
-              Expanded(
-                child: Text(
-                  title,
-                  style: const TextStyle(
-                    color: Colors.white,
-                    fontWeight: FontWeight.w900,
-                    fontSize: 14,
-                  ),
-                ),
-              ),
-            ],
+          padding: const EdgeInsets.fromLTRB(14, 13, 14, 13),
+          color: color,
+          child: Text(
+            title,
+            style: const TextStyle(
+              color: Colors.white,
+              fontWeight: FontWeight.w900,
+              fontSize: 14,
+            ),
           ),
         ),
+        Image.asset(asset, width: double.infinity, fit: BoxFit.cover),
         Padding(
-          padding: const EdgeInsets.fromLTRB(15, 11, 15, 8),
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: points
-                .map(
-                  (p) => Padding(
-                    padding: const EdgeInsets.only(bottom: 8),
-                    child: Row(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                        const Text(
-                          '•  ',
-                          style: TextStyle(
-                            color: gold,
-                            fontSize: 17,
-                            fontWeight: FontWeight.w900,
-                          ),
-                        ),
-                        Expanded(
-                          child: Text(
-                            p,
-                            style: const TextStyle(
-                              color: navy,
-                              height: 1.4,
-                              fontSize: 14,
-                            ),
-                          ),
-                        ),
-                      ],
-                    ),
-                  ),
-                )
-                .toList(),
+          padding: const EdgeInsets.fromLTRB(15, 12, 15, 15),
+          child: Text(
+            explanation,
+            style: const TextStyle(color: navy, height: 1.45, fontSize: 14),
           ),
         ),
       ],
