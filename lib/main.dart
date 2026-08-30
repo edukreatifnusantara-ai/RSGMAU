@@ -863,7 +863,7 @@ class TopicPage extends StatelessWidget {
           const Padding(
             padding: EdgeInsets.only(bottom: 10),
             child: Text(
-              'Materi Pokja',
+              'Poin penting',
               style: TextStyle(
                 color: navy,
                 fontSize: 18,
@@ -1046,7 +1046,7 @@ class TopicPage extends StatelessWidget {
                           padding: const EdgeInsets.all(8),
                           alignment: Alignment.centerLeft,
                           child: Text(
-                            label.isEmpty ? 'Jawaban' : label,
+                            label.isEmpty ? 'Poin penting' : label,
                             style: TextStyle(
                               color: accent,
                               fontSize: 12,
