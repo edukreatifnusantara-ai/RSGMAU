@@ -491,7 +491,10 @@ class HomePage extends StatelessWidget {
         ),
         const SizedBox(height: 18),
         FilledButton.icon(
-          onPressed: () => onTab(3),
+          onPressed: () => Navigator.push(
+            context,
+            MaterialPageRoute(builder: (_) => LatihanPage(items: items)),
+          ),
           icon: const Icon(Icons.arrow_forward_rounded),
           label: const Text('Mulai latihan'),
           style: FilledButton.styleFrom(
@@ -518,7 +521,10 @@ class HomePage extends StatelessWidget {
         _feature(
           'Latihan Tanya Jawab',
           Icons.question_answer_rounded,
-          () => onTab(3),
+          () => Navigator.push(
+            context,
+            MaterialPageRoute(builder: (_) => LatihanPage(items: items)),
+          ),
         ),
         _feature('Cari Materi', Icons.search_rounded, () => onTab(1)),
       ],
