@@ -2089,6 +2089,39 @@ class EvakuasiPage extends StatelessWidget {
         ),
         const SizedBox(height: 18),
         const Text(
+          'DOKUMENTASI LAPANGAN',
+          style: TextStyle(
+            color: navy,
+            fontSize: 18,
+            fontWeight: FontWeight.w900,
+          ),
+        ),
+        const SizedBox(height: 8),
+        const Text(
+          'Kenali rambu titik kumpul dan lingkungan sekitarnya dari beberapa sudut pandang.',
+          style: TextStyle(color: muted, height: 1.4),
+        ),
+        const SizedBox(height: 10),
+        ...[
+          'assets/titik_kumpul_rsgmau_02.jpg',
+          'assets/titik_kumpul_rsgmau_03.jpg',
+          'assets/titik_kumpul_rsgmau_04.jpg',
+          'assets/titik_kumpul_rsgmau_05.jpg',
+        ].asMap().entries.map(
+          (entry) => Padding(
+            padding: const EdgeInsets.only(bottom: 10),
+            child: ClipRRect(
+              borderRadius: BorderRadius.circular(16),
+              child: Image.asset(
+                entry.value,
+                width: double.infinity,
+                fit: BoxFit.cover,
+              ),
+            ),
+          ),
+        ),
+        const SizedBox(height: 8),
+        const Text(
           'EVAKUASI RUMAH SAKIT',
           style: TextStyle(
             color: navy,
