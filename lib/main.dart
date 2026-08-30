@@ -512,8 +512,30 @@ class HomePage extends StatelessWidget {
       crossAxisSpacing: 11,
       childAspectRatio: 1.7,
       children: [
-        _feature('Materi Akreditasi', Icons.menu_book_rounded, () => onTab(1)),
-        _feature('Panduan Cepat', Icons.bolt_rounded, () => onTab(2)),
+        _feature(
+          'Kebakaran — RACE & PASS',
+          Icons.fire_extinguisher_rounded,
+          () => Navigator.push(
+            context,
+            MaterialPageRoute(builder: (_) => const RacePassPage()),
+          ),
+        ),
+        _feature(
+          'Bantuan Hidup Dasar',
+          Icons.monitor_heart_rounded,
+          () => Navigator.push(
+            context,
+            MaterialPageRoute(builder: (_) => const BhdPage()),
+          ),
+        ),
+        _feature(
+          'Pasien Jatuh',
+          Icons.personal_injury_rounded,
+          () => Navigator.push(
+            context,
+            MaterialPageRoute(builder: (_) => const PasienJatuhPage()),
+          ),
+        ),
         _feature(
           'Latihan Tanya Jawab',
           Icons.question_answer_rounded,
@@ -522,7 +544,6 @@ class HomePage extends StatelessWidget {
             MaterialPageRoute(builder: (_) => LatihanPage(items: items)),
           ),
         ),
-        _feature('Cari Materi', Icons.search_rounded, () => onTab(1)),
       ],
     ),
   );
