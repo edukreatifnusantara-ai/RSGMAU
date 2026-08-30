@@ -2977,9 +2977,11 @@ class LatihanPage extends StatelessWidget {
   final List<BookItem> items;
   const LatihanPage({super.key, required this.items});
   @override
-  Widget build(BuildContext context) => ListView(
-    padding: const EdgeInsets.fromLTRB(20, 22, 20, 30),
-    children: [
+  Widget build(BuildContext context) => Scaffold(
+    backgroundColor: cream,
+    body: ListView(
+      padding: const EdgeInsets.fromLTRB(20, 22, 20, 30),
+      children: [
       const Text(
         'Latihan',
         style: TextStyle(
@@ -3002,7 +3004,8 @@ class LatihanPage extends StatelessWidget {
         () => _start(context),
       ),
 
-    ],
+      ],
+    ),
   );
   Widget _mode(
     BuildContext context,
