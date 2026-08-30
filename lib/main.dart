@@ -832,6 +832,7 @@ class TopicPage extends StatelessWidget {
           if (topic.code == 'TKRS') _organisasiCard(context),
           if (topic.code == 'MFK') _aparCard(context),
           if (topic.code == 'KPS') _kpsVisualCard(),
+          if (topic.code == 'HPK') _hpkPosterCard(),
           const Padding(
             padding: EdgeInsets.only(bottom: 10),
             child: Text(
@@ -853,6 +854,31 @@ class TopicPage extends StatelessWidget {
       ),
     );
   }
+
+  Widget _hpkPosterCard() => Card(
+    elevation: 0,
+    margin: const EdgeInsets.only(bottom: 18),
+    color: Colors.white,
+    clipBehavior: Clip.antiAlias,
+    shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
+    child: Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        Image.asset(
+          'assets/kanal_pengaduan_hpk.jpg',
+          width: double.infinity,
+          fit: BoxFit.cover,
+        ),
+        const Padding(
+          padding: EdgeInsets.fromLTRB(14, 13, 14, 14),
+          child: Text(
+            'Kanal saran dan pengaduan pasien — offline maupun online.',
+            style: TextStyle(color: navy, height: 1.4, fontWeight: FontWeight.w700),
+          ),
+        ),
+      ],
+    ),
+  );
 
   Widget _importantPointCard(BookItem item) {
     if (item.category == 'KPS') return _kpsStructuredCard(item);
