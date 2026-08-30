@@ -3015,11 +3015,74 @@ class LatihanPage extends StatelessWidget {
           .showSnackBar(const SnackBar(content: Text('Materi sedang dimuat.')));
       return;
     }
+    final bank = items.where((item) => item.category == 'LATIHAN').toList();
+    if (bank.isEmpty) {
+      ScaffoldMessenger.of(context)
+          .showSnackBar(const SnackBar(content: Text('Bank soal sedang dimuat.')));
+      return;
+    }
     Navigator.push(
       context,
-      MaterialPageRoute(builder: (_) => DetailPage(item: items.first)),
+      MaterialPageRoute(builder: (_) => LatihanBankPage(items: bank)),
     );
   }
+}
+
+class LatihanBankPage extends StatelessWidget {
+  final List<BookItem> items;
+  const LatihanBankPage({super.key, required this.items});
+
+  @override
+  Widget build(BuildContext context) => Scaffold(
+    appBar: AppBar(
+      title: const Text('Bank Soal Latihan'),
+      backgroundColor: navy,
+      foregroundColor: Colors.white,
+    ),
+    body: ListView.separated(
+      padding: const EdgeInsets.fromLTRB(18, 18, 18, 30),
+      itemCount: items.length,
+      separatorBuilder: (_, __) => const SizedBox(height: 9),
+      itemBuilder: (context, index) {
+        final item = items[index];
+        return Card(
+          elevation: 0,
+          color: Colors.white,
+          margin: EdgeInsets.zero,
+          shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(15)),
+          child: ListTile(
+            contentPadding: const EdgeInsets.fromLTRB(14, 10, 12, 10),
+            leading: CircleAvatar(
+              backgroundColor: gold,
+              foregroundColor: navy,
+              child: Text(
+                '${index + 1}',
+                style: const TextStyle(fontWeight: FontWeight.w900),
+              ),
+            ),
+            title: Text(
+              item.question,
+              maxLines: 3,
+              overflow: TextOverflow.ellipsis,
+              style: const TextStyle(color: navy, fontWeight: FontWeight.w800),
+            ),
+            subtitle: const Padding(
+              padding: EdgeInsets.only(top: 5),
+              child: Text(
+                'Buka jawaban dari Buku Saku 2026',
+                style: TextStyle(color: muted, fontSize: 12),
+              ),
+            ),
+            trailing: const Icon(Icons.chevron_right_rounded, color: navy),
+            onTap: () => Navigator.push(
+              context,
+              MaterialPageRoute(builder: (_) => DetailPage(item: item)),
+            ),
+          ),
+        );
+      },
+    ),
+  );
 }
 
 class DetailPage extends StatefulWidget {
