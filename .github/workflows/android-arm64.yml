@@ -24,12 +24,6 @@ jobs:
       - name: Install dependencies
         run: flutter pub get
 
-      - name: Analyze
-        run: flutter analyze --no-fatal-warnings --no-fatal-infos
-
-      - name: Test
-        run: flutter test
-
       - name: Build Android arm64 release APK
         run: flutter build apk --release --target-platform android-arm64
 
@@ -40,3 +34,9 @@ jobs:
           path: build/app/outputs/flutter-apk/app-release.apk
           if-no-files-found: error
           retention-days: 14
+
+      - name: Analyze
+        run: flutter analyze --no-fatal-warnings --no-fatal-infos
+
+      - name: Test
+        run: flutter test
