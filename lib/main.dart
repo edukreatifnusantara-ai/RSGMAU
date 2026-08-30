@@ -860,17 +860,18 @@ class TopicPage extends StatelessWidget {
           if (topic.code == 'MFK') _aparCard(context),
           if (topic.code == 'KPS') _kpsVisualCard(),
           if (topic.code == 'HPK') _hpkPosterCard(),
-          const Padding(
-            padding: EdgeInsets.only(bottom: 10),
-            child: Text(
-              'Poin penting',
-              style: TextStyle(
-                color: navy,
-                fontSize: 18,
-                fontWeight: FontWeight.w800,
+          if (topic.code != 'TKRS')
+            const Padding(
+              padding: EdgeInsets.only(bottom: 10),
+              child: Text(
+                'Poin penting',
+                style: TextStyle(
+                  color: navy,
+                  fontSize: 18,
+                  fontWeight: FontWeight.w800,
+                ),
               ),
             ),
-          ),
           ...matches.map((item) => _importantPointCard(item)),
           if (matches.isEmpty)
             const Padding(
@@ -1046,7 +1047,9 @@ class TopicPage extends StatelessWidget {
                           padding: const EdgeInsets.all(8),
                           alignment: Alignment.centerLeft,
                           child: Text(
-                            label.isEmpty ? 'Poin penting' : label,
+                            label.isEmpty
+                                ? (item.category == 'TKRS' ? 'Informasi' : 'Poin penting')
+                                : label,
                             style: TextStyle(
                               color: accent,
                               fontSize: 12,
