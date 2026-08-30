@@ -3001,20 +3001,7 @@ class LatihanPage extends StatelessWidget {
         Icons.question_answer_rounded,
         () => _start(context),
       ),
-      _mode(
-        context,
-        'Kuis Materi',
-        'Periksa pemahaman setiap pokja.',
-        Icons.quiz_rounded,
-        () => _start(context),
-      ),
-      _mode(
-        context,
-        'Simulasi Survei',
-        'Latihan menjawab seperti saat survei.',
-        Icons.record_voice_over_rounded,
-        () => _start(context),
-      ),
+
     ],
   );
   Widget _mode(
