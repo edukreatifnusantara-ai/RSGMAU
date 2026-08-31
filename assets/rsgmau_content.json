@@ -726,22 +726,21 @@
     "id": "pp-001",
     "category": "PP",
     "title": "Kerangka Waktu Pengkajian Awal",
-    "question": "Berapa batas waktu penyelesaian pengkajian awal medis dan keperawatan?",
-    "answer": "Pengkajian awal gawat darurat harus diselesaikan dalam waktu 30 menit. Pengkajian awal rawat inap harus diselesaikan dalam waktu kurang dari 24 jam. Pengkajian rawat jalan harus diselesaikan dalam waktu kurang dari 30 menit sejak pasien masuk unit gawat darurat, rawat inap, atau rawat jalan.",
+    "question": "Berapa kerangka waktu asesmen atau pengkajian awal medis dan keperawatan?",
+    "answer": "Kerangka waktu Asesmen/Pengkajian Awal Medis dan Keperawatan :\nPengkajian awal gawat darurat harus diselesaikan dalam kurun waktu 30 menit\nPengkajian awal rawat inap harus diselesaikan dalam waktu kurang dari 24 jam\nPengkajian rawat jalan harus di selesaikan dalam waktu kurang dari 30 menit sejak pasien masuk unit gawat darurat/rawat inap/rawat jalan.\nAsesmen/Pengkajian Awal medis dan keperawatan rawat jalan diulang setelah lebih dari 30 hari (oleh DPJP)",
     "keywords": [
       "PP",
+      "kerangka waktu",
       "asesmen awal",
-      "rawat jalan",
-      "rawat inap",
-      "gawat darurat"
+      "pengkajian awal"
     ]
   },
   {
     "id": "pp-002",
     "category": "PP",
     "title": "Pengulangan Pengkajian Awal",
-    "question": "Kapan pengkajian awal medis dan keperawatan diulang?",
-    "answer": "Pengkajian awal medis dan keperawatan rawat jalan diulang setelah lebih dari 30 hari oleh DPJP. Pengkajian awal rawat inap diulang setelah 1 bulan untuk penyakit akut dan setelah 3 bulan untuk penyakit kronis.",
+    "question": "Kapan asesmen atau pengkajian awal medis dan keperawatan diulang?",
+    "answer": "Asesmen/Pengkajian Awal medis dan keperawatan rawat inap diulang :\nSetelah 1 bulan, untuk penyakit akut\nSetelah 3 bulan, untuk penyakit kronis",
     "keywords": [
       "PP",
       "pengkajian ulang",
@@ -753,13 +752,14 @@
   {
     "id": "pp-003",
     "category": "PP",
-    "title": "Frekuensi Pengkajian Ulang CPPT",
-    "question": "Berapa kali pengkajian ulang CPPT dilakukan pada pasien rawat inap?",
-    "answer": "Pengkajian ulang CPPT rawat inap dilakukan oleh medis atau dokter minimal 1 kali sehari, oleh perawat minimal 1 kali per shift atau sesuai perubahan kondisi pasien, dan oleh PPA lainnya sesuai perubahan atau kondisi khusus pasien.",
+    "title": "Pengkajian Ulang CPPT Rawat Inap",
+    "question": "Bagaimana frekuensi pengkajian ulang CPPT rawat inap?",
+    "answer": "Pengkajian ulang (CPPT) rawat inap :\nMedis/Dokter  minimal 1 kali sehari\nPerawat  minimal 1 kali per shift atau sesuai dengan perubahan kondisi pasien\nPPA lainnya  sesuai dengan perubahan/kondisi khusus pasien",
     "keywords": [
       "PP",
       "CPPT",
-      "pengkajian ulang",
+      "dokter",
+      "perawat",
       "PPA"
     ]
   },
@@ -768,7 +768,7 @@
     "category": "PP",
     "title": "Populasi Khusus",
     "question": "Siapa saja populasi khusus yang memerlukan asesmen tambahan di RSGMAU?",
-    "answer": "Populasi khusus di RSGMAU terdiri dari pasien anak usia kurang dari 12 tahun, pasien berkebutuhan khusus, pasien geriatri usia lebih dari 60 tahun, pasien penyakit menular, pasien neonatus, pasien remaja usia lebih dari 12 tahun sampai dengan 19 tahun, pasien obstetri atau ibu hamil, pasien tahap terminal, pasien risiko NAPZA, pasien bunuh diri dan kekerasan fisik, pasien kemoterapi, serta pasien imunologi.",
+    "answer": "Populasi khusus (memerlukan Asesmen Tambahan) di RSGMAU terdiri dari :\nPasien anak (usia <12 tahun)\nPasien berkebutuhan khusus\nPasien geriatri (usia >60 tahun)\nPasien penyakit menular\nPasien neonatus\nPasien remaja (usia >12 tahun s/d 19 tahun)\nPasien obstetri (ibu hamil)\nPasien tahap terminal\nPasien risiko NAPZA\nPasien bunuh diri dan kekerasan fisik\nPasien kemoterapi\nPasien imunologi",
     "keywords": [
       "PP",
       "populasi khusus",
@@ -782,11 +782,11 @@
     "category": "PP",
     "title": "Pengkajian Nutrisi",
     "question": "Bagaimana pengkajian nutrisi dilakukan?",
-    "answer": "Pengkajian nutrisi menggunakan metode Malnutrition Screening Tools. Khusus anak usia kurang dari 12 tahun menggunakan penghitungan indeks massa tubuh atau IMT. Balita usia kurang dari 5 tahun menggunakan pengukuran lingkar lengan atau LiLa.",
+    "answer": "Pengkajian nutrisi menggunakan metode “malnutrition screening tools”. Khusus untuk anak usia < 12 tahun menggunakan penghitungan indeks masa tubuh (IMT). Balita (<5 tahun) menggunakan pengukuran Lingkar Lengan (LiLa)",
     "keywords": [
       "PP",
       "nutrisi",
-      "Malnutrition Screening Tools",
+      "malnutrition screening tools",
       "IMT",
       "LiLa"
     ]
@@ -796,13 +796,13 @@
     "category": "PP",
     "title": "Pengkajian Risiko Jatuh",
     "question": "Metode apa yang digunakan untuk pengkajian risiko jatuh?",
-    "answer": "Pengkajian risiko jatuh rawat jalan menggunakan metode Get Up and Go. Pengkajian risiko jatuh rawat inap menggunakan Morse Fall Scale untuk pasien dewasa dan Humpty Dumpty untuk anak. Semua pasien bayi dikategorikan sebagai pasien risiko jatuh.",
+    "answer": "Pengkajian risiko jatuh :\nPengkajian risiko jatuh rawat jalan menggunakan metode get up and go\nPengkajian risiko jatuh rawat inap menggunakan metode morse fall scale untuk pasien dewasa dan humpty dumpty untuk anak.\nSemua pasien bayi dikategorikan menjadi pasien risiko jatuh.",
     "keywords": [
       "PP",
       "risiko jatuh",
-      "Get Up and Go",
-      "Morse Fall Scale",
-      "Humpty Dumpty"
+      "get up and go",
+      "morse fall scale",
+      "humpty dumpty"
     ]
   },
   {
@@ -810,7 +810,7 @@
     "category": "PP",
     "title": "Pengkajian Skala Nyeri",
     "question": "Skala nyeri apa yang digunakan untuk pasien dewasa dan anak?",
-    "answer": "Skala nyeri menggunakan Numeric Rating Scale atau NRS dan Wong Baker Faces Pain Rating Scale atau WBFPRS untuk pasien dewasa dan anak usia lebih dari 4 tahun. FLACC digunakan pada anak usia kurang dari 4 tahun.",
+    "answer": "Skala nyeri menggunakan Numeric Rating Scale (NRS) dan Wong Baker Faces Pain Rating Scale (WBFPRS) untuk pasien dewasa dan anak > 4 tahun dan FLACC digunakan pada anak < 4 tahun",
     "keywords": [
       "PP",
       "skala nyeri",
